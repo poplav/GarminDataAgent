@@ -1,0 +1,37 @@
+library(ggplot2)
+library(plyr)
+table <- read.table("/home/mike/Desktop/python-fitparse-master/scripts/garmin_data.csv", header=T, sep=",")
+table$start_time <- as.Date(as.character(table$start_time),format="%Y-%m-%d")
+table <- subset(table, total_distance > 0.5)
+jpeg('/home/mike/Desktop/python-fitparse-master/scripts/g1.jpg')
+m <- ggplot(table, aes(start_time, total_distance))
+m + stat_smooth()  + geom_point() + labs(title = "Garmin Data")
+dev.off()
+jpeg('/home/mike/Desktop/python-fitparse-master/scripts/g2.jpg')
+m <- ggplot(table, aes(start_time, avg_speed))
+m + stat_smooth()  + geom_point() + labs(title = "Garmin Data")
+dev.off()
+jpeg('/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg')
+m <- ggplot(table, aes(avg_speed, total_distance))
+m + stat_smooth(method=lm)  + geom_point() + labs(title = "Garmin Data")
+#ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg", scale=1, width=4, height=4)
+#ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg")
+dev.off()
+
+#look at total_distance - f(avg_speed) over time
+#given historical speed is my current distance given my speed a strong run if it is should be > 0
+fit <- lm(total_distance ~ avg_speed + 0, data=table)
+table$f_speed <- predict(fit, table)
+table$total_distance_minus_f_speed <- table$total_dist-table$f_speed
+m <- ggplot(table, aes(start_time, total_distance_minus_f_speed))
+m + stat_smooth()  + geom_point() + labs(title = "Garmin Data")
+
+#look at miles grouped by month
+monthly_miles <- rowsum(table$total_distance, format(table$start_time, '%m-%Y')) 
+monthly_miles <- as.data.frame(as.table(monthly_miles))
+monthly_miles <- subset(monthly_miles, select = -c(Var2))
+monthly_miles <- rename(monthly_miles, c("Var1"="date", "Freq"="total_miles"))
+monthly_miles$date <- paste("01-",as.character(monthly_miles$date),sep="")
+monthly_miles$date <- as.Date(as.character(monthly_miles$date),format="%d-%m-%Y")
+m <- ggplot(monthly_miles, aes(date, total_miles, group=1))
+m + stat_smooth(method=lm)  + geom_point() + labs(title = "Garmin Data")

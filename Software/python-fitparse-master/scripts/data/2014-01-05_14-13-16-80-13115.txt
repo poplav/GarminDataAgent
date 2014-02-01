@@ -1,0 +1,5522 @@
+-- 1. #0: file_id (6 entries) 
+-----------------------------serial_number [uint32z]: 3863488130
+time_created [date_time]: 2013-06-29 10:40:12
+manufacturer [manufacturer]: garmin
+garmin_product [garmin_product]: 1328
+number [uint16]: None
+type [file]: activity
+
+-- 2. #49: file_creator (2 entries) 
+-----------------------software_version [uint16]: 270
+hardware_version [uint8]: None
+
+-- 3. #21: event (5 entries) 
+------------------------------timestamp [date_time]: 2013-06-29 10:40:11 [s]
+timer_trigger [timer_trigger]: manual
+event [event]: timer
+event_type [event_type]: start
+event_group [uint8]: 0
+
+-- 4. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-06-29 10:40:11 [s]
+serial_number [uint32z]: 3863488130
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1328
+software_version [uint16]: 2.7
+battery_voltage [uint16]: None
+device_index [device_index]: creator
+device_type [device_type]: antfs
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 5. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-06-29 10:40:11 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 1
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 6. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-06-29 10:40:11 [s]
+serial_number [uint32z]: 24692146
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: 187
+unknown [uint32]: 3
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 2
+device_type [device_type]: heart_rate
+hardware_version [uint8]: None
+unknown [uint8]: 98
+battery_status [battery_status]: None
+
+-- 7. #22: unknown (10 entries) 
+---------------------------unknown [uint32]: 741451211
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 8. #79: unknown (9 entries) 
+----------------------------unknown [uint32]: 741451211
+unknown [uint16]: 14508
+unknown [uint16]: 630
+unknown [uint8]: 21
+unknown [uint8]: 175
+unknown [enum]: 1
+unknown [enum]: 60
+unknown [uint8]: 199
+unknown [sint8]: 1
+
+-- 9. #20: record (3 entries) 
+-----------------------------timestamp [date_time]: 2013-06-29 10:40:11 [s]
+altitude [uint16]: 235.0 [m]
+heart_rate [uint8]: 91 [bpm]
+
+-- 10. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:12 [s]
+altitude [uint16]: 235.0 [m]
+heart_rate [uint8]: 92 [bpm]
+
+-- 11. #104: unknown (5 entries) 
+--------------------------unknown [uint32]: 741451212
+unknown [uint16]: 4043
+unknown [sint16]: None
+unknown [uint8]: 92
+unknown [sint8]: 28
+
+-- 12. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:13 [s]
+altitude [uint16]: 235.0 [m]
+heart_rate [uint8]: 93 [bpm]
+
+-- 13. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:14 [s]
+altitude [uint16]: 235.0 [m]
+heart_rate [uint8]: 94 [bpm]
+
+-- 14. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:15 [s]
+altitude [uint16]: 235.6 [m]
+heart_rate [uint8]: 95 [bpm]
+
+-- 15. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:17 [s]
+altitude [uint16]: 235.6 [m]
+heart_rate [uint8]: 96 [bpm]
+
+-- 16. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:19 [s]
+altitude [uint16]: 235.6 [m]
+heart_rate [uint8]: 97 [bpm]
+
+-- 17. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:21 [s]
+altitude [uint16]: 235.6 [m]
+heart_rate [uint8]: 98 [bpm]
+
+-- 18. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:22 [s]
+altitude [uint16]: 235.6 [m]
+heart_rate [uint8]: 100 [bpm]
+
+-- 19. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:23 [s]
+altitude [uint16]: 235.8 [m]
+heart_rate [uint8]: 101 [bpm]
+
+-- 20. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:24 [s]
+altitude [uint16]: 236.2 [m]
+heart_rate [uint8]: 102 [bpm]
+
+-- 21. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:25 [s]
+altitude [uint16]: 236.8 [m]
+heart_rate [uint8]: 103 [bpm]
+
+-- 22. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:26 [s]
+altitude [uint16]: 237.2 [m]
+heart_rate [uint8]: 104 [bpm]
+
+-- 23. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:27 [s]
+altitude [uint16]: 237.6 [m]
+heart_rate [uint8]: 105 [bpm]
+
+-- 24. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:28 [s]
+altitude [uint16]: 237.8 [m]
+heart_rate [uint8]: 106 [bpm]
+
+-- 25. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:29 [s]
+altitude [uint16]: 237.8 [m]
+heart_rate [uint8]: 107 [bpm]
+
+-- 26. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:30 [s]
+altitude [uint16]: 237.4 [m]
+heart_rate [uint8]: 109 [bpm]
+
+-- 27. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:31 [s]
+altitude [uint16]: 237.0 [m]
+heart_rate [uint8]: 111 [bpm]
+
+-- 28. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:32 [s]
+altitude [uint16]: 237.2 [m]
+heart_rate [uint8]: 112 [bpm]
+
+-- 29. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:33 [s]
+altitude [uint16]: 237.4 [m]
+heart_rate [uint8]: 113 [bpm]
+
+-- 30. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:34 [s]
+altitude [uint16]: 237.2 [m]
+heart_rate [uint8]: 114 [bpm]
+
+-- 31. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:35 [s]
+altitude [uint16]: 237.0 [m]
+heart_rate [uint8]: 115 [bpm]
+
+-- 32. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:36 [s]
+altitude [uint16]: 236.6 [m]
+heart_rate [uint8]: 116 [bpm]
+
+-- 33. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:37 [s]
+altitude [uint16]: 237.0 [m]
+heart_rate [uint8]: 117 [bpm]
+
+-- 34. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:38 [s]
+altitude [uint16]: 237.2 [m]
+heart_rate [uint8]: 117 [bpm]
+
+-- 35. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:39 [s]
+altitude [uint16]: 237.6 [m]
+heart_rate [uint8]: 118 [bpm]
+
+-- 36. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:40 [s]
+altitude [uint16]: 237.8 [m]
+heart_rate [uint8]: 119 [bpm]
+
+-- 37. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:41 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 120 [bpm]
+
+-- 38. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:42 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 121 [bpm]
+
+-- 39. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:43 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 122 [bpm]
+
+-- 40. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:44 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 123 [bpm]
+
+-- 41. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:48 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 124 [bpm]
+
+-- 42. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:50 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 125 [bpm]
+
+-- 43. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:52 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 126 [bpm]
+
+-- 44. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:53 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 127 [bpm]
+
+-- 45. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:55 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 128 [bpm]
+
+-- 46. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:56 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 129 [bpm]
+
+-- 47. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:57 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 130 [bpm]
+
+-- 48. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:58 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 131 [bpm]
+
+-- 49. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:40:59 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 133 [bpm]
+
+-- 50. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:00 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 51. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:01 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 135 [bpm]
+
+-- 52. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:02 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 136 [bpm]
+
+-- 53. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:03 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 137 [bpm]
+
+-- 54. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:04 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 138 [bpm]
+
+-- 55. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:05 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 139 [bpm]
+
+-- 56. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:07 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 140 [bpm]
+
+-- 57. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:09 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 141 [bpm]
+
+-- 58. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:13 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 59. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:22 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 60. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:24 [s]
+altitude [uint16]: 237.8 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 61. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:25 [s]
+altitude [uint16]: 237.4 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 62. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:26 [s]
+altitude [uint16]: 237.0 [m]
+heart_rate [uint8]: 144 [bpm]
+
+-- 63. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:27 [s]
+altitude [uint16]: 236.6 [m]
+heart_rate [uint8]: 144 [bpm]
+
+-- 64. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:28 [s]
+altitude [uint16]: 236.2 [m]
+heart_rate [uint8]: 144 [bpm]
+
+-- 65. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:29 [s]
+altitude [uint16]: 236.0 [m]
+heart_rate [uint8]: 145 [bpm]
+
+-- 66. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:31 [s]
+altitude [uint16]: 236.0 [m]
+heart_rate [uint8]: 146 [bpm]
+
+-- 67. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:35 [s]
+altitude [uint16]: 236.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 68. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:38 [s]
+altitude [uint16]: 236.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 69. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:39 [s]
+altitude [uint16]: 235.4 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 70. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:40 [s]
+altitude [uint16]: 235.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 71. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:41 [s]
+altitude [uint16]: 234.6 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 72. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:42 [s]
+altitude [uint16]: 234.2 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 73. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:43 [s]
+altitude [uint16]: 233.8 [m]
+heart_rate [uint8]: 149 [bpm]
+
+-- 74. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:45 [s]
+altitude [uint16]: 233.8 [m]
+heart_rate [uint8]: 150 [bpm]
+
+-- 75. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:47 [s]
+altitude [uint16]: 233.8 [m]
+heart_rate [uint8]: 151 [bpm]
+
+-- 76. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:49 [s]
+altitude [uint16]: 233.8 [m]
+heart_rate [uint8]: 152 [bpm]
+
+-- 77. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:51 [s]
+altitude [uint16]: 234.2 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 78. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:52 [s]
+altitude [uint16]: 234.6 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 79. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:53 [s]
+altitude [uint16]: 235.0 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 80. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:54 [s]
+altitude [uint16]: 235.4 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 81. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:55 [s]
+altitude [uint16]: 235.8 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 82. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:41:56 [s]
+altitude [uint16]: 236.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 83. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:01 [s]
+altitude [uint16]: 236.2 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 84. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:02 [s]
+altitude [uint16]: 236.6 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 85. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:03 [s]
+altitude [uint16]: 237.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 86. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:04 [s]
+altitude [uint16]: 237.4 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 87. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:05 [s]
+altitude [uint16]: 237.8 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 88. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:06 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 89. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:10 [s]
+altitude [uint16]: 238.2 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 90. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:14 [s]
+altitude [uint16]: 238.6 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 91. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:15 [s]
+altitude [uint16]: 239.0 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 92. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:16 [s]
+altitude [uint16]: 239.6 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 93. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:17 [s]
+altitude [uint16]: 240.0 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 94. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:18 [s]
+altitude [uint16]: 240.4 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 95. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:21 [s]
+altitude [uint16]: 240.4 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 96. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:22 [s]
+altitude [uint16]: 240.4 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 97. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:25 [s]
+altitude [uint16]: 240.4 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 98. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:26 [s]
+altitude [uint16]: 240.4 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 99. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 10:42:28 [s]
+altitude [uint16]: 240.4 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 100. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:29 [s]
+altitude [uint16]: 240.6 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 101. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:30 [s]
+altitude [uint16]: 241.0 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 102. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:31 [s]
+altitude [uint16]: 241.4 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 103. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:32 [s]
+altitude [uint16]: 241.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 104. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:33 [s]
+altitude [uint16]: 242.2 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 105. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:34 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 106. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:39 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 107. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:42 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 108. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:45 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 109. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:46 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 110. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:47 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 111. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:50 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 112. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:42:57 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 113. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:04 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 114. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:06 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 115. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:07 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 116. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:11 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 117. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:14 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 118. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:27 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 119. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:29 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 120. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:32 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 121. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:35 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 122. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:40 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 123. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:41 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 124. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:42 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 125. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:43 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 126. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:47 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 127. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:49 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 128. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:43:57 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 129. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741451450
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 130. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:12 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 131. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:13 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 132. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:28 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 166 [bpm]
+
+-- 133. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:29 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 134. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:30 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 166 [bpm]
+
+-- 135. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:32 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 136. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:41 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 166 [bpm]
+
+-- 137. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:43 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 138. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:45 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 166 [bpm]
+
+-- 139. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:46 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 140. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:54 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 141. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:55 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 142. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:44:56 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 143. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:00 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 144. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:01 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 145. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:08 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 146. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:09 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 147. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:10 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 148. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:11 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 149. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:12 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 167 [bpm]
+
+-- 150. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 741451512
+unknown [uint16]: 4051
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 33
+
+-- 151. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:14 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 168 [bpm]
+
+-- 152. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:17 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 169 [bpm]
+
+-- 153. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:24 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 170 [bpm]
+
+-- 154. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:32 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 169 [bpm]
+
+-- 155. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741451533
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 156. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:33 [s]
+altitude [uint16]: 242.6 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 157. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741451537
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 158. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:37 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 171 [bpm]
+
+-- 159. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:38 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 170 [bpm]
+
+-- 160. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:40 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 171 [bpm]
+
+-- 161. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:41 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 170 [bpm]
+
+-- 162. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:42 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 171 [bpm]
+
+-- 163. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:48 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 172 [bpm]
+
+-- 164. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:54 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 173 [bpm]
+
+-- 165. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:45:59 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 174 [bpm]
+
+-- 166. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:02 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 173 [bpm]
+
+-- 167. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:06 [s]
+altitude [uint16]: None
+heart_rate [uint8]: 172 [bpm]
+
+-- 168. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-06-29 10:46:07 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1080
+software_version [uint16]: 200.51
+battery_voltage [uint16]: None
+device_index [device_index]: 3
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 169. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741451567
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 3
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 170. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:11 [s]
+position_lat [sint32]: 362667123 [semicircles]
+position_long [sint32]: -1165654239 [semicircles]
+distance [uint32]: 1.95 [m]
+altitude [uint16]: None
+speed [uint16]: 4.579 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 171. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:12 [s]
+position_lat [sint32]: 362667045 [semicircles]
+position_long [sint32]: -1165654142 [semicircles]
+distance [uint32]: 2.89 [m]
+altitude [uint16]: None
+speed [uint16]: 4.668 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 172. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:15 [s]
+position_lat [sint32]: 362667029 [semicircles]
+position_long [sint32]: -1165654237 [semicircles]
+distance [uint32]: 4.82 [m]
+altitude [uint16]: None
+speed [uint16]: 0.971 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 173. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:17 [s]
+position_lat [sint32]: 362666972 [semicircles]
+position_long [sint32]: -1165653948 [semicircles]
+distance [uint32]: 7.22 [m]
+altitude [uint16]: None
+speed [uint16]: 5.063 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 174. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:19 [s]
+position_lat [sint32]: 362666746 [semicircles]
+position_long [sint32]: -1165653570 [semicircles]
+distance [uint32]: 10.88 [m]
+altitude [uint16]: None
+speed [uint16]: 1.774 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 175. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:22 [s]
+position_lat [sint32]: 362666076 [semicircles]
+position_long [sint32]: -1165653603 [semicircles]
+distance [uint32]: 17.17 [m]
+altitude [uint16]: None
+speed [uint16]: 1.363 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 176. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:26 [s]
+position_lat [sint32]: 362665184 [semicircles]
+position_long [sint32]: -1165652048 [semicircles]
+distance [uint32]: 32.63 [m]
+altitude [uint16]: None
+speed [uint16]: 2.108 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 177. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:31 [s]
+position_lat [sint32]: 362664869 [semicircles]
+position_long [sint32]: -1165652111 [semicircles]
+distance [uint32]: 37.63 [m]
+altitude [uint16]: None
+speed [uint16]: 2.789 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 178. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:34 [s]
+position_lat [sint32]: 362664653 [semicircles]
+position_long [sint32]: -1165651554 [semicircles]
+distance [uint32]: 42.64 [m]
+altitude [uint16]: None
+speed [uint16]: 2.769 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 179. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:36 [s]
+position_lat [sint32]: 362664320 [semicircles]
+position_long [sint32]: -1165651041 [semicircles]
+distance [uint32]: 47.74 [m]
+altitude [uint16]: None
+speed [uint16]: 2.507 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 180. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:40 [s]
+position_lat [sint32]: 362664087 [semicircles]
+position_long [sint32]: -1165650243 [semicircles]
+distance [uint32]: 55.08 [m]
+altitude [uint16]: None
+speed [uint16]: 2.282 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 181. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741451602
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 182. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:42 [s]
+position_lat [sint32]: 362664011 [semicircles]
+position_long [sint32]: -1165649978 [semicircles]
+distance [uint32]: 57.39 [m]
+altitude [uint16]: 243.2 [m]
+speed [uint16]: 1.88 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 183. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:45 [s]
+position_lat [sint32]: 362663477 [semicircles]
+position_long [sint32]: -1165648513 [semicircles]
+distance [uint32]: 70.15 [m]
+altitude [uint16]: 243.2 [m]
+speed [uint16]: 2.172 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 184. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:49 [s]
+position_lat [sint32]: 362662800 [semicircles]
+position_long [sint32]: -1165646298 [semicircles]
+distance [uint32]: 89.04 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.206 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 185. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:50 [s]
+position_lat [sint32]: 362662713 [semicircles]
+position_long [sint32]: -1165646028 [semicircles]
+distance [uint32]: 91.36 [m]
+altitude [uint16]: 243.8 [m]
+speed [uint16]: 3.304 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 186. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:51 [s]
+position_lat [sint32]: 362662606 [semicircles]
+position_long [sint32]: -1165645600 [semicircles]
+distance [uint32]: 94.94 [m]
+altitude [uint16]: 244.4 [m]
+speed [uint16]: 3.355 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 187. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:52 [s]
+position_lat [sint32]: 362662523 [semicircles]
+position_long [sint32]: -1165645272 [semicircles]
+distance [uint32]: 97.69 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.412 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 188. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:53 [s]
+position_lat [sint32]: 362662399 [semicircles]
+position_long [sint32]: -1165644875 [semicircles]
+distance [uint32]: 101.09 [m]
+altitude [uint16]: 245.2 [m]
+speed [uint16]: 3.563 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 189. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:54 [s]
+position_lat [sint32]: 362662312 [semicircles]
+position_long [sint32]: -1165644774 [semicircles]
+distance [uint32]: 102.08 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 3.806 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 190. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:55 [s]
+position_lat [sint32]: 362662239 [semicircles]
+position_long [sint32]: -1165644858 [semicircles]
+distance [uint32]: 102.08 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 3.737 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 191. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:46:58 [s]
+position_lat [sint32]: 362661969 [semicircles]
+position_long [sint32]: -1165644179 [semicircles]
+distance [uint32]: 108.03 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 2.973 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 192. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:00 [s]
+position_lat [sint32]: 362661875 [semicircles]
+position_long [sint32]: -1165643620 [semicircles]
+distance [uint32]: 112.53 [m]
+altitude [uint16]: 245.8 [m]
+speed [uint16]: 2.574 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 193. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:01 [s]
+position_lat [sint32]: 362661785 [semicircles]
+position_long [sint32]: -1165643282 [semicircles]
+distance [uint32]: 115.37 [m]
+altitude [uint16]: 246.2 [m]
+speed [uint16]: 2.333 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 194. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:02 [s]
+position_lat [sint32]: 362661736 [semicircles]
+position_long [sint32]: -1165643030 [semicircles]
+distance [uint32]: 117.44 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 2.296 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 195. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:03 [s]
+position_lat [sint32]: 362661683 [semicircles]
+position_long [sint32]: -1165642825 [semicircles]
+distance [uint32]: 119.17 [m]
+altitude [uint16]: 247.2 [m]
+speed [uint16]: 2.267 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 196. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:04 [s]
+position_lat [sint32]: 362661625 [semicircles]
+position_long [sint32]: -1165642449 [semicircles]
+distance [uint32]: 122.18 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 2.121 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 197. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:05 [s]
+position_lat [sint32]: 362661526 [semicircles]
+position_long [sint32]: -1165642012 [semicircles]
+distance [uint32]: 125.82 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 2.136 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 198. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:06 [s]
+position_lat [sint32]: 362661416 [semicircles]
+position_long [sint32]: -1165641631 [semicircles]
+distance [uint32]: 129.05 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 2.149 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 199. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:12 [s]
+position_lat [sint32]: 362660741 [semicircles]
+position_long [sint32]: -1165638942 [semicircles]
+distance [uint32]: 151.61 [m]
+altitude [uint16]: 248.2 [m]
+speed [uint16]: 3.136 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 200. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:13 [s]
+position_lat [sint32]: 362660609 [semicircles]
+position_long [sint32]: -1165638567 [semicircles]
+distance [uint32]: 154.86 [m]
+altitude [uint16]: 248.6 [m]
+speed [uint16]: 3.242 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 201. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:14 [s]
+position_lat [sint32]: 362660420 [semicircles]
+position_long [sint32]: -1165638065 [semicircles]
+distance [uint32]: 159.26 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 3.289 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 202. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:15 [s]
+position_lat [sint32]: 362660245 [semicircles]
+position_long [sint32]: -1165637526 [semicircles]
+distance [uint32]: 163.89 [m]
+altitude [uint16]: 249.6 [m]
+speed [uint16]: 3.482 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 203. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:16 [s]
+position_lat [sint32]: 362660107 [semicircles]
+position_long [sint32]: -1165637189 [semicircles]
+distance [uint32]: 166.88 [m]
+altitude [uint16]: 250.0 [m]
+speed [uint16]: 3.715 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 204. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:17 [s]
+position_lat [sint32]: 362660006 [semicircles]
+position_long [sint32]: -1165636909 [semicircles]
+distance [uint32]: 169.33 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 3.724 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 205. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:18 [s]
+position_lat [sint32]: 362659736 [semicircles]
+position_long [sint32]: -1165637082 [semicircles]
+distance [uint32]: 171.39 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 3.555 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 206. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:20 [s]
+position_lat [sint32]: 362659206 [semicircles]
+position_long [sint32]: -1165636907 [semicircles]
+distance [uint32]: 176.53 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 3.427 [m/s]
+heart_rate [uint8]: 167 [bpm]
+
+-- 207. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:21 [s]
+position_lat [sint32]: 362658985 [semicircles]
+position_long [sint32]: -1165636684 [semicircles]
+distance [uint32]: 179.26 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 3.318 [m/s]
+heart_rate [uint8]: 167 [bpm]
+
+-- 208. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:24 [s]
+position_lat [sint32]: 362658492 [semicircles]
+position_long [sint32]: -1165635872 [semicircles]
+distance [uint32]: 187.22 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 3.059 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 209. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:28 [s]
+position_lat [sint32]: 362658457 [semicircles]
+position_long [sint32]: -1165634759 [semicircles]
+distance [uint32]: 196.14 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 2.371 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 210. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:30 [s]
+position_lat [sint32]: 362658357 [semicircles]
+position_long [sint32]: -1165633793 [semicircles]
+distance [uint32]: 203.98 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 2.572 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 211. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:33 [s]
+position_lat [sint32]: 362658144 [semicircles]
+position_long [sint32]: -1165632289 [semicircles]
+distance [uint32]: 216.24 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 2.971 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 212. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:37 [s]
+position_lat [sint32]: 362658150 [semicircles]
+position_long [sint32]: -1165631368 [semicircles]
+distance [uint32]: 223.83 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 2.989 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 213. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:38 [s]
+position_lat [sint32]: 362658147 [semicircles]
+position_long [sint32]: -1165631075 [semicircles]
+distance [uint32]: 226.16 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 2.983 [m/s]
+heart_rate [uint8]: 164 [bpm]
+
+-- 214. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:43 [s]
+position_lat [sint32]: 362657942 [semicircles]
+position_long [sint32]: -1165628697 [semicircles]
+distance [uint32]: 245.38 [m]
+altitude [uint16]: 250.2 [m]
+speed [uint16]: 3.045 [m/s]
+heart_rate [uint8]: 164 [bpm]
+
+-- 215. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:46 [s]
+position_lat [sint32]: 362657503 [semicircles]
+position_long [sint32]: -1165626418 [semicircles]
+distance [uint32]: 264.11 [m]
+altitude [uint16]: 249.8 [m]
+speed [uint16]: 3.612 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 216. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:47 [s]
+position_lat [sint32]: 362657444 [semicircles]
+position_long [sint32]: -1165625990 [semicircles]
+distance [uint32]: 267.6 [m]
+altitude [uint16]: 249.4 [m]
+speed [uint16]: 3.814 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 217. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:48 [s]
+position_lat [sint32]: 362657342 [semicircles]
+position_long [sint32]: -1165625414 [semicircles]
+distance [uint32]: 272.3 [m]
+altitude [uint16]: 248.6 [m]
+speed [uint16]: 3.894 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 218. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:49 [s]
+position_lat [sint32]: 362657286 [semicircles]
+position_long [sint32]: -1165624903 [semicircles]
+distance [uint32]: 276.44 [m]
+altitude [uint16]: 248.2 [m]
+speed [uint16]: 4.201 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 219. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:50 [s]
+position_lat [sint32]: 362657215 [semicircles]
+position_long [sint32]: -1165624306 [semicircles]
+distance [uint32]: 281.29 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 4.466 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 220. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:52 [s]
+position_lat [sint32]: 362657018 [semicircles]
+position_long [sint32]: -1165623146 [semicircles]
+distance [uint32]: 290.69 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 4.716 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 221. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:54 [s]
+position_lat [sint32]: 362656920 [semicircles]
+position_long [sint32]: -1165622179 [semicircles]
+distance [uint32]: 298.53 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 4.983 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 222. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:57 [s]
+position_lat [sint32]: 362656635 [semicircles]
+position_long [sint32]: -1165620515 [semicircles]
+distance [uint32]: 312.16 [m]
+altitude [uint16]: 247.2 [m]
+speed [uint16]: 4.885 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 223. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:58 [s]
+position_lat [sint32]: 362656584 [semicircles]
+position_long [sint32]: -1165619950 [semicircles]
+distance [uint32]: 316.73 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 4.481 [m/s]
+heart_rate [uint8]: 167 [bpm]
+
+-- 224. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:47:59 [s]
+position_lat [sint32]: 362656561 [semicircles]
+position_long [sint32]: -1165619489 [semicircles]
+distance [uint32]: 320.45 [m]
+altitude [uint16]: 246.4 [m]
+speed [uint16]: 4.454 [m/s]
+heart_rate [uint8]: 167 [bpm]
+
+-- 225. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:00 [s]
+position_lat [sint32]: 362656764 [semicircles]
+position_long [sint32]: -1165620350 [semicircles]
+distance [uint32]: 320.45 [m]
+altitude [uint16]: 246.2 [m]
+speed [uint16]: 4.507 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 226. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:01 [s]
+position_lat [sint32]: 362656680 [semicircles]
+position_long [sint32]: -1165619879 [semicircles]
+distance [uint32]: 324.32 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 4.791 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 227. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:02 [s]
+position_lat [sint32]: 362656586 [semicircles]
+position_long [sint32]: -1165619437 [semicircles]
+distance [uint32]: 327.98 [m]
+altitude [uint16]: 245.4 [m]
+speed [uint16]: 4.734 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 228. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:03 [s]
+position_lat [sint32]: 362656539 [semicircles]
+position_long [sint32]: -1165618961 [semicircles]
+distance [uint32]: 331.83 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 4.661 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 229. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:04 [s]
+position_lat [sint32]: 362656542 [semicircles]
+position_long [sint32]: -1165618523 [semicircles]
+distance [uint32]: 335.36 [m]
+altitude [uint16]: 241.6 [m]
+speed [uint16]: 4.675 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 230. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:05 [s]
+position_lat [sint32]: 362656524 [semicircles]
+position_long [sint32]: -1165618066 [semicircles]
+distance [uint32]: 339.04 [m]
+altitude [uint16]: 239.8 [m]
+speed [uint16]: 4.484 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 231. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:06 [s]
+position_lat [sint32]: 362656405 [semicircles]
+position_long [sint32]: -1165617479 [semicircles]
+distance [uint32]: 343.88 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 4.455 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 232. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:07 [s]
+position_lat [sint32]: 362656386 [semicircles]
+position_long [sint32]: -1165617041 [semicircles]
+distance [uint32]: 347.4 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 4.543 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 233. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:08 [s]
+position_lat [sint32]: 362656289 [semicircles]
+position_long [sint32]: -1165616474 [semicircles]
+distance [uint32]: 352.06 [m]
+altitude [uint16]: 234.2 [m]
+speed [uint16]: 4.493 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 234. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:09 [s]
+position_lat [sint32]: 362656237 [semicircles]
+position_long [sint32]: -1165615921 [semicircles]
+distance [uint32]: 356.54 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.442 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 235. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:11 [s]
+position_lat [sint32]: 362656218 [semicircles]
+position_long [sint32]: -1165614999 [semicircles]
+distance [uint32]: 363.96 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.417 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 236. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:13 [s]
+position_lat [sint32]: 362656132 [semicircles]
+position_long [sint32]: -1165613952 [semicircles]
+distance [uint32]: 372.44 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 3.99 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 237. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:17 [s]
+position_lat [sint32]: 362655871 [semicircles]
+position_long [sint32]: -1165611952 [semicircles]
+distance [uint32]: 388.86 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.174 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 238. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:20 [s]
+position_lat [sint32]: 362655258 [semicircles]
+position_long [sint32]: -1165610448 [semicircles]
+distance [uint32]: 402.54 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.297 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 239. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:25 [s]
+position_lat [sint32]: 362655075 [semicircles]
+position_long [sint32]: -1165608109 [semicircles]
+distance [uint32]: 421.57 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.124 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 240. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:29 [s]
+position_lat [sint32]: 362654813 [semicircles]
+position_long [sint32]: -1165606185 [semicircles]
+distance [uint32]: 437.23 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.059 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 241. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:34 [s]
+position_lat [sint32]: 362654642 [semicircles]
+position_long [sint32]: -1165603652 [semicircles]
+distance [uint32]: 457.57 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.02 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 242. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:39 [s]
+position_lat [sint32]: 362654789 [semicircles]
+position_long [sint32]: -1165601118 [semicircles]
+distance [uint32]: 478.22 [m]
+altitude [uint16]: 233.6 [m]
+speed [uint16]: 4.22 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 243. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:41 [s]
+position_lat [sint32]: 362654609 [semicircles]
+position_long [sint32]: -1165600184 [semicircles]
+distance [uint32]: 485.91 [m]
+altitude [uint16]: 233.8 [m]
+speed [uint16]: 4.204 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 244. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:42 [s]
+position_lat [sint32]: 362654585 [semicircles]
+position_long [sint32]: -1165599701 [semicircles]
+distance [uint32]: 489.8 [m]
+altitude [uint16]: 234.2 [m]
+speed [uint16]: 4.166 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 245. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:43 [s]
+position_lat [sint32]: 362654569 [semicircles]
+position_long [sint32]: -1165599228 [semicircles]
+distance [uint32]: 493.61 [m]
+altitude [uint16]: 234.6 [m]
+speed [uint16]: 4.173 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 246. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:44 [s]
+position_lat [sint32]: 362654551 [semicircles]
+position_long [sint32]: -1165598712 [semicircles]
+distance [uint32]: 497.77 [m]
+altitude [uint16]: 235.0 [m]
+speed [uint16]: 4.173 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 247. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:45 [s]
+position_lat [sint32]: 362654526 [semicircles]
+position_long [sint32]: -1165598272 [semicircles]
+distance [uint32]: 501.31 [m]
+altitude [uint16]: 235.4 [m]
+speed [uint16]: 4.13 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 248. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:46 [s]
+position_lat [sint32]: 362654469 [semicircles]
+position_long [sint32]: -1165597819 [semicircles]
+distance [uint32]: 505.0 [m]
+altitude [uint16]: 235.6 [m]
+speed [uint16]: 4.076 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 249. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:48 [s]
+position_lat [sint32]: 362654502 [semicircles]
+position_long [sint32]: -1165596809 [semicircles]
+distance [uint32]: 513.13 [m]
+altitude [uint16]: 235.6 [m]
+speed [uint16]: 4.008 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 250. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:51 [s]
+position_lat [sint32]: 362654408 [semicircles]
+position_long [sint32]: -1165595495 [semicircles]
+distance [uint32]: 523.79 [m]
+altitude [uint16]: 235.8 [m]
+speed [uint16]: 3.815 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 251. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:52 [s]
+position_lat [sint32]: 362654372 [semicircles]
+position_long [sint32]: -1165595092 [semicircles]
+distance [uint32]: 527.06 [m]
+altitude [uint16]: 236.6 [m]
+speed [uint16]: 3.78 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 252. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:53 [s]
+position_lat [sint32]: 362654300 [semicircles]
+position_long [sint32]: -1165594682 [semicircles]
+distance [uint32]: 530.42 [m]
+altitude [uint16]: 237.0 [m]
+speed [uint16]: 3.719 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 253. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:54 [s]
+position_lat [sint32]: 362654269 [semicircles]
+position_long [sint32]: -1165594305 [semicircles]
+distance [uint32]: 533.47 [m]
+altitude [uint16]: 237.4 [m]
+speed [uint16]: 3.682 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 254. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:55 [s]
+position_lat [sint32]: 362654320 [semicircles]
+position_long [sint32]: -1165593955 [semicircles]
+distance [uint32]: 536.33 [m]
+altitude [uint16]: 238.0 [m]
+speed [uint16]: 3.588 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 255. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:48:57 [s]
+position_lat [sint32]: 362654274 [semicircles]
+position_long [sint32]: -1165593202 [semicircles]
+distance [uint32]: 542.41 [m]
+altitude [uint16]: 238.0 [m]
+speed [uint16]: 3.429 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 256. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:00 [s]
+position_lat [sint32]: 362654292 [semicircles]
+position_long [sint32]: -1165592007 [semicircles]
+distance [uint32]: 552.04 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.283 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 257. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:01 [s]
+position_lat [sint32]: 362654286 [semicircles]
+position_long [sint32]: -1165591586 [semicircles]
+distance [uint32]: 555.43 [m]
+altitude [uint16]: 238.8 [m]
+speed [uint16]: 3.239 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 258. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:02 [s]
+position_lat [sint32]: 362654253 [semicircles]
+position_long [sint32]: -1165591236 [semicircles]
+distance [uint32]: 558.27 [m]
+altitude [uint16]: 239.2 [m]
+speed [uint16]: 3.21 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 259. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:03 [s]
+position_lat [sint32]: 362654307 [semicircles]
+position_long [sint32]: -1165590815 [semicircles]
+distance [uint32]: 561.69 [m]
+altitude [uint16]: 239.6 [m]
+speed [uint16]: 3.191 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 260. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:04 [s]
+position_lat [sint32]: 362654354 [semicircles]
+position_long [sint32]: -1165590427 [semicircles]
+distance [uint32]: 564.84 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.168 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 261. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:07 [s]
+position_lat [sint32]: 362654339 [semicircles]
+position_long [sint32]: -1165589436 [semicircles]
+distance [uint32]: 572.84 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.145 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 262. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:08 [s]
+position_lat [sint32]: 362654340 [semicircles]
+position_long [sint32]: -1165589050 [semicircles]
+distance [uint32]: 575.95 [m]
+altitude [uint16]: 240.8 [m]
+speed [uint16]: 3.162 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 263. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:09 [s]
+position_lat [sint32]: 362654371 [semicircles]
+position_long [sint32]: -1165588697 [semicircles]
+distance [uint32]: 578.81 [m]
+altitude [uint16]: 241.2 [m]
+speed [uint16]: 3.157 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 264. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:10 [s]
+position_lat [sint32]: 362654410 [semicircles]
+position_long [sint32]: -1165588377 [semicircles]
+distance [uint32]: 581.41 [m]
+altitude [uint16]: 241.8 [m]
+speed [uint16]: 3.108 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 265. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:11 [s]
+position_lat [sint32]: 362654411 [semicircles]
+position_long [sint32]: -1165588121 [semicircles]
+distance [uint32]: 583.47 [m]
+altitude [uint16]: 242.0 [m]
+speed [uint16]: 3.058 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 266. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:12 [s]
+position_lat [sint32]: 362654418 [semicircles]
+position_long [sint32]: -1165587698 [semicircles]
+distance [uint32]: 586.87 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.96 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 267. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:15 [s]
+position_lat [sint32]: 362654390 [semicircles]
+position_long [sint32]: -1165586673 [semicircles]
+distance [uint32]: 595.14 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.848 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 268. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:16 [s]
+position_lat [sint32]: 362654516 [semicircles]
+position_long [sint32]: -1165586305 [semicircles]
+distance [uint32]: 598.32 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.812 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 269. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:19 [s]
+position_lat [sint32]: 362654636 [semicircles]
+position_long [sint32]: -1165585309 [semicircles]
+distance [uint32]: 606.55 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.807 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 270. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:22 [s]
+position_lat [sint32]: 362654356 [semicircles]
+position_long [sint32]: -1165584166 [semicircles]
+distance [uint32]: 616.12 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.865 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 271. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:23 [s]
+position_lat [sint32]: 362654236 [semicircles]
+position_long [sint32]: -1165583784 [semicircles]
+distance [uint32]: 619.39 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 2.894 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 272. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:24 [s]
+position_lat [sint32]: 362654112 [semicircles]
+position_long [sint32]: -1165583352 [semicircles]
+distance [uint32]: 623.04 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.016 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 273. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:25 [s]
+position_lat [sint32]: 362654002 [semicircles]
+position_long [sint32]: -1165582978 [semicircles]
+distance [uint32]: 626.23 [m]
+altitude [uint16]: 243.8 [m]
+speed [uint16]: 3.051 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 274. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:26 [s]
+position_lat [sint32]: 362653923 [semicircles]
+position_long [sint32]: -1165582635 [semicircles]
+distance [uint32]: 629.09 [m]
+altitude [uint16]: 244.2 [m]
+speed [uint16]: 3.068 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 275. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:27 [s]
+position_lat [sint32]: 362653847 [semicircles]
+position_long [sint32]: -1165582311 [semicircles]
+distance [uint32]: 631.79 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.086 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 276. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:31 [s]
+position_lat [sint32]: 362653420 [semicircles]
+position_long [sint32]: -1165580967 [semicircles]
+distance [uint32]: 643.33 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.12 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 277. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:36 [s]
+position_lat [sint32]: 362652902 [semicircles]
+position_long [sint32]: -1165579345 [semicircles]
+distance [uint32]: 657.31 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 2.964 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 278. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:40 [s]
+position_lat [sint32]: 362652111 [semicircles]
+position_long [sint32]: -1165578368 [semicircles]
+distance [uint32]: 667.97 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 2.936 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 279. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:45 [s]
+position_lat [sint32]: 362650856 [semicircles]
+position_long [sint32]: -1165576748 [semicircles]
+distance [uint32]: 685.3 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.098 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 280. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:51 [s]
+position_lat [sint32]: 362649593 [semicircles]
+position_long [sint32]: -1165574804 [semicircles]
+distance [uint32]: 704.71 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.234 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 281. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:49:57 [s]
+position_lat [sint32]: 362648786 [semicircles]
+position_long [sint32]: -1165572687 [semicircles]
+distance [uint32]: 723.35 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.221 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 282. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:02 [s]
+position_lat [sint32]: 362648362 [semicircles]
+position_long [sint32]: -1165570789 [semicircles]
+distance [uint32]: 739.13 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.204 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 283. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:08 [s]
+position_lat [sint32]: 362647878 [semicircles]
+position_long [sint32]: -1165568263 [semicircles]
+distance [uint32]: 759.95 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.272 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 284. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:09 [s]
+position_lat [sint32]: 362647782 [semicircles]
+position_long [sint32]: -1165567856 [semicircles]
+distance [uint32]: 763.34 [m]
+altitude [uint16]: 244.4 [m]
+speed [uint16]: 3.302 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 285. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:10 [s]
+position_lat [sint32]: 362647705 [semicircles]
+position_long [sint32]: -1165567432 [semicircles]
+distance [uint32]: 766.83 [m]
+altitude [uint16]: 244.0 [m]
+speed [uint16]: 3.341 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 286. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:11 [s]
+position_lat [sint32]: 362647595 [semicircles]
+position_long [sint32]: -1165567022 [semicircles]
+distance [uint32]: 770.27 [m]
+altitude [uint16]: 243.6 [m]
+speed [uint16]: 3.32 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 287. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:12 [s]
+position_lat [sint32]: 362647560 [semicircles]
+position_long [sint32]: -1165566645 [semicircles]
+distance [uint32]: 773.32 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 3.36 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 288. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 741451812
+unknown [uint16]: 4048
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 35
+
+-- 289. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:13 [s]
+position_lat [sint32]: 362647451 [semicircles]
+position_long [sint32]: -1165566185 [semicircles]
+distance [uint32]: 777.15 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.357 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 290. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:14 [s]
+position_lat [sint32]: 362647328 [semicircles]
+position_long [sint32]: -1165565743 [semicircles]
+distance [uint32]: 780.88 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.384 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 291. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:20 [s]
+position_lat [sint32]: 362646443 [semicircles]
+position_long [sint32]: -1165563188 [semicircles]
+distance [uint32]: 803.03 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.599 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 292. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:25 [s]
+position_lat [sint32]: 362645725 [semicircles]
+position_long [sint32]: -1165561158 [semicircles]
+distance [uint32]: 820.72 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.657 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 293. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:27 [s]
+position_lat [sint32]: 362645308 [semicircles]
+position_long [sint32]: -1165560310 [semicircles]
+distance [uint32]: 828.53 [m]
+altitude [uint16]: 242.2 [m]
+speed [uint16]: 3.652 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 294. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:28 [s]
+position_lat [sint32]: 362645090 [semicircles]
+position_long [sint32]: -1165559818 [semicircles]
+distance [uint32]: 832.95 [m]
+altitude [uint16]: 241.8 [m]
+speed [uint16]: 3.664 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 295. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:29 [s]
+position_lat [sint32]: 362644835 [semicircles]
+position_long [sint32]: -1165559325 [semicircles]
+distance [uint32]: 837.53 [m]
+altitude [uint16]: 241.4 [m]
+speed [uint16]: 3.713 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 296. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:30 [s]
+position_lat [sint32]: 362644526 [semicircles]
+position_long [sint32]: -1165558807 [semicircles]
+distance [uint32]: 842.59 [m]
+altitude [uint16]: 241.0 [m]
+speed [uint16]: 3.809 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 297. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:31 [s]
+position_lat [sint32]: 362644290 [semicircles]
+position_long [sint32]: -1165558276 [semicircles]
+distance [uint32]: 847.39 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.887 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 298. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:32 [s]
+position_lat [sint32]: 362644139 [semicircles]
+position_long [sint32]: -1165557817 [semicircles]
+distance [uint32]: 851.33 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.988 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 299. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:35 [s]
+position_lat [sint32]: 362643473 [semicircles]
+position_long [sint32]: -1165556634 [semicircles]
+distance [uint32]: 862.65 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 4.14 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 300. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:36 [s]
+position_lat [sint32]: 362643208 [semicircles]
+position_long [sint32]: -1165556288 [semicircles]
+distance [uint32]: 866.33 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 4.12 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 301. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:37 [s]
+position_lat [sint32]: 362643003 [semicircles]
+position_long [sint32]: -1165556091 [semicircles]
+distance [uint32]: 868.73 [m]
+altitude [uint16]: 239.8 [m]
+speed [uint16]: 4.123 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 302. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:38 [s]
+position_lat [sint32]: 362642812 [semicircles]
+position_long [sint32]: -1165555831 [semicircles]
+distance [uint32]: 871.45 [m]
+altitude [uint16]: 239.4 [m]
+speed [uint16]: 4.071 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 303. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:39 [s]
+position_lat [sint32]: 362642625 [semicircles]
+position_long [sint32]: -1165555502 [semicircles]
+distance [uint32]: 874.62 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 3.983 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 304. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:40 [s]
+position_lat [sint32]: 362642464 [semicircles]
+position_long [sint32]: -1165555099 [semicircles]
+distance [uint32]: 878.19 [m]
+altitude [uint16]: 238.6 [m]
+speed [uint16]: 3.905 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 305. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:41 [s]
+position_lat [sint32]: 362642315 [semicircles]
+position_long [sint32]: -1165554650 [semicircles]
+distance [uint32]: 882.06 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.813 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 306. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:44 [s]
+position_lat [sint32]: 362641918 [semicircles]
+position_long [sint32]: -1165553592 [semicircles]
+distance [uint32]: 891.43 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.512 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 307. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:49 [s]
+position_lat [sint32]: 362641527 [semicircles]
+position_long [sint32]: -1165552151 [semicircles]
+distance [uint32]: 903.59 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.924 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 308. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:52 [s]
+position_lat [sint32]: 362641245 [semicircles]
+position_long [sint32]: -1165551281 [semicircles]
+distance [uint32]: 911.05 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.857 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 309. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:53 [s]
+position_lat [sint32]: 362641167 [semicircles]
+position_long [sint32]: -1165551047 [semicircles]
+distance [uint32]: 913.05 [m]
+altitude [uint16]: 237.8 [m]
+speed [uint16]: 2.78 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 310. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:54 [s]
+position_lat [sint32]: 362641059 [semicircles]
+position_long [sint32]: -1165550766 [semicircles]
+distance [uint32]: 915.52 [m]
+altitude [uint16]: 237.4 [m]
+speed [uint16]: 2.659 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 311. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:55 [s]
+position_lat [sint32]: 362640997 [semicircles]
+position_long [sint32]: -1165550595 [semicircles]
+distance [uint32]: 916.99 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 2.588 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 312. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:56 [s]
+position_lat [sint32]: 362640989 [semicircles]
+position_long [sint32]: -1165550514 [semicircles]
+distance [uint32]: 917.65 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 2.433 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 313. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:57 [s]
+position_lat [sint32]: 362640990 [semicircles]
+position_long [sint32]: -1165550556 [semicircles]
+distance [uint32]: 917.65 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 0.0 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 314. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:50:59 [s]
+position_lat [sint32]: 362641090 [semicircles]
+position_long [sint32]: -1165550882 [semicircles]
+distance [uint32]: 920.29 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 1.934 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 315. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:00 [s]
+position_lat [sint32]: 362641069 [semicircles]
+position_long [sint32]: -1165551156 [semicircles]
+distance [uint32]: 922.41 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 1.929 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 316. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:03 [s]
+position_lat [sint32]: 362641274 [semicircles]
+position_long [sint32]: -1165552157 [semicircles]
+distance [uint32]: 930.5 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 1.877 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 317. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:04 [s]
+position_lat [sint32]: 362641415 [semicircles]
+position_long [sint32]: -1165552515 [semicircles]
+distance [uint32]: 933.64 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 1.915 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 318. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:08 [s]
+position_lat [sint32]: 362641728 [semicircles]
+position_long [sint32]: -1165553767 [semicircles]
+distance [uint32]: 944.07 [m]
+altitude [uint16]: 236.4 [m]
+speed [uint16]: 2.122 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 319. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:12 [s]
+position_lat [sint32]: 362641916 [semicircles]
+position_long [sint32]: -1165554518 [semicircles]
+distance [uint32]: 951.21 [m]
+altitude [uint16]: 236.6 [m]
+speed [uint16]: 2.513 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 320. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:13 [s]
+position_lat [sint32]: 362641732 [semicircles]
+position_long [sint32]: -1165554551 [semicircles]
+distance [uint32]: 952.92 [m]
+altitude [uint16]: 237.0 [m]
+speed [uint16]: 2.451 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 321. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:14 [s]
+position_lat [sint32]: 362641441 [semicircles]
+position_long [sint32]: -1165554637 [semicircles]
+distance [uint32]: 955.65 [m]
+altitude [uint16]: 237.4 [m]
+speed [uint16]: 2.402 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 322. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:15 [s]
+position_lat [sint32]: 362641052 [semicircles]
+position_long [sint32]: -1165554802 [semicircles]
+distance [uint32]: 959.47 [m]
+altitude [uint16]: 237.8 [m]
+speed [uint16]: 2.383 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 323. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:16 [s]
+position_lat [sint32]: 362640719 [semicircles]
+position_long [sint32]: -1165554968 [semicircles]
+distance [uint32]: 962.81 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.414 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 324. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:17 [s]
+position_lat [sint32]: 362640417 [semicircles]
+position_long [sint32]: -1165555157 [semicircles]
+distance [uint32]: 966.01 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.455 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 325. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:21 [s]
+position_lat [sint32]: 362639204 [semicircles]
+position_long [sint32]: -1165556370 [semicircles]
+distance [uint32]: 980.98 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.794 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 326. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:23 [s]
+position_lat [sint32]: 362638843 [semicircles]
+position_long [sint32]: -1165556595 [semicircles]
+distance [uint32]: 984.92 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.903 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 327. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:25 [s]
+position_lat [sint32]: 362638256 [semicircles]
+position_long [sint32]: -1165556835 [semicircles]
+distance [uint32]: 990.67 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.021 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 328. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:29 [s]
+position_lat [sint32]: 362636856 [semicircles]
+position_long [sint32]: -1165557707 [semicircles]
+distance [uint32]: 1005.55 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.316 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 329. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:31 [s]
+position_lat [sint32]: 362636226 [semicircles]
+position_long [sint32]: -1165558116 [semicircles]
+distance [uint32]: 1012.27 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.266 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 330. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:34 [s]
+position_lat [sint32]: 362635268 [semicircles]
+position_long [sint32]: -1165558662 [semicircles]
+distance [uint32]: 1022.2 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.115 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 331. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:37 [s]
+position_lat [sint32]: 362634672 [semicircles]
+position_long [sint32]: -1165559232 [semicircles]
+distance [uint32]: 1029.53 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.721 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 332. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:38 [s]
+position_lat [sint32]: 362634468 [semicircles]
+position_long [sint32]: -1165559358 [semicircles]
+distance [uint32]: 1031.68 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.652 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 333. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:42 [s]
+position_lat [sint32]: 362633368 [semicircles]
+position_long [sint32]: -1165560103 [semicircles]
+distance [uint32]: 1043.61 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.279 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 334. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:43 [s]
+position_lat [sint32]: 362633156 [semicircles]
+position_long [sint32]: -1165560304 [semicircles]
+distance [uint32]: 1046.15 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.259 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 335. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:45 [s]
+position_lat [sint32]: 362632775 [semicircles]
+position_long [sint32]: -1165560444 [semicircles]
+distance [uint32]: 1049.89 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.158 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 336. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:46 [s]
+position_lat [sint32]: 362632506 [semicircles]
+position_long [sint32]: -1165560535 [semicircles]
+distance [uint32]: 1052.49 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.038 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 337. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:50 [s]
+position_lat [sint32]: 362631392 [semicircles]
+position_long [sint32]: -1165561342 [semicircles]
+distance [uint32]: 1064.72 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.669 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 338. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:54 [s]
+position_lat [sint32]: 362630277 [semicircles]
+position_long [sint32]: -1165561843 [semicircles]
+distance [uint32]: 1075.85 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.746 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 339. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:55 [s]
+position_lat [sint32]: 362630033 [semicircles]
+position_long [sint32]: -1165561964 [semicircles]
+distance [uint32]: 1078.32 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.713 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 340. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:51:59 [s]
+position_lat [sint32]: 362628799 [semicircles]
+position_long [sint32]: -1165562534 [semicircles]
+distance [uint32]: 1090.68 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.966 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 341. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:02 [s]
+position_lat [sint32]: 362628071 [semicircles]
+position_long [sint32]: -1165563002 [semicircles]
+distance [uint32]: 1098.52 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.884 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 342. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:04 [s]
+position_lat [sint32]: 362627567 [semicircles]
+position_long [sint32]: -1165563387 [semicircles]
+distance [uint32]: 1104.13 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.788 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 343. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:08 [s]
+position_lat [sint32]: 362626450 [semicircles]
+position_long [sint32]: -1165563988 [semicircles]
+distance [uint32]: 1115.57 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.825 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 344. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:13 [s]
+position_lat [sint32]: 362624955 [semicircles]
+position_long [sint32]: -1165564712 [semicircles]
+distance [uint32]: 1130.71 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.867 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 345. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:16 [s]
+position_lat [sint32]: 362624036 [semicircles]
+position_long [sint32]: -1165565303 [semicircles]
+distance [uint32]: 1140.46 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.038 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 346. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:21 [s]
+position_lat [sint32]: 362622682 [semicircles]
+position_long [sint32]: -1165565924 [semicircles]
+distance [uint32]: 1154.13 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.009 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 347. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:22 [s]
+position_lat [sint32]: 362622494 [semicircles]
+position_long [sint32]: -1165566078 [semicircles]
+distance [uint32]: 1156.27 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.963 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 348. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:25 [s]
+position_lat [sint32]: 362621810 [semicircles]
+position_long [sint32]: -1165566411 [semicircles]
+distance [uint32]: 1163.22 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.746 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 349. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:26 [s]
+position_lat [sint32]: 362621603 [semicircles]
+position_long [sint32]: -1165566575 [semicircles]
+distance [uint32]: 1165.55 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.713 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 350. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:30 [s]
+position_lat [sint32]: 362621538 [semicircles]
+position_long [sint32]: -1165566612 [semicircles]
+distance [uint32]: 1169.56 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 0.0 [m/s]
+heart_rate [uint8]: 167 [bpm]
+
+-- 351. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:32 [s]
+position_lat [sint32]: 362621900 [semicircles]
+position_long [sint32]: -1165566543 [semicircles]
+distance [uint32]: 1173.03 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 1.872 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 352. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:34 [s]
+position_lat [sint32]: 362622388 [semicircles]
+position_long [sint32]: -1165566486 [semicircles]
+distance [uint32]: 1177.64 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 1.754 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 353. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:38 [s]
+position_lat [sint32]: 362623442 [semicircles]
+position_long [sint32]: -1165566235 [semicircles]
+distance [uint32]: 1187.85 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 1.761 [m/s]
+heart_rate [uint8]: 164 [bpm]
+
+-- 354. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:45 [s]
+position_lat [sint32]: 362625347 [semicircles]
+position_long [sint32]: -1165564973 [semicircles]
+distance [uint32]: 1208.3 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.662 [m/s]
+heart_rate [uint8]: 163 [bpm]
+
+-- 355. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:51 [s]
+position_lat [sint32]: 362627036 [semicircles]
+position_long [sint32]: -1165563962 [semicircles]
+distance [uint32]: 1226.01 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.99 [m/s]
+heart_rate [uint8]: 164 [bpm]
+
+-- 356. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:54 [s]
+position_lat [sint32]: 362627702 [semicircles]
+position_long [sint32]: -1165563683 [semicircles]
+distance [uint32]: 1232.71 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.847 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 357. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:56 [s]
+position_lat [sint32]: 362628264 [semicircles]
+position_long [sint32]: -1165563333 [semicircles]
+distance [uint32]: 1238.66 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.758 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 358. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:52:58 [s]
+position_lat [sint32]: 362628877 [semicircles]
+position_long [sint32]: -1165562993 [semicircles]
+distance [uint32]: 1244.99 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.817 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 359. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:02 [s]
+position_lat [sint32]: 362629997 [semicircles]
+position_long [sint32]: -1165562438 [semicircles]
+distance [uint32]: 1256.33 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.799 [m/s]
+heart_rate [uint8]: 165 [bpm]
+
+-- 360. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:08 [s]
+position_lat [sint32]: 362631486 [semicircles]
+position_long [sint32]: -1165561512 [semicircles]
+distance [uint32]: 1272.08 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.89 [m/s]
+heart_rate [uint8]: 164 [bpm]
+
+-- 361. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:13 [s]
+position_lat [sint32]: 362632885 [semicircles]
+position_long [sint32]: -1165560740 [semicircles]
+distance [uint32]: 1286.54 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.678 [m/s]
+heart_rate [uint8]: 163 [bpm]
+
+-- 362. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:18 [s]
+position_lat [sint32]: 362634689 [semicircles]
+position_long [sint32]: -1165559629 [semicircles]
+distance [uint32]: 1305.56 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.067 [m/s]
+heart_rate [uint8]: 166 [bpm]
+
+-- 363. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:22 [s]
+position_lat [sint32]: 362636046 [semicircles]
+position_long [sint32]: -1165558698 [semicircles]
+distance [uint32]: 1320.23 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.41 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 364. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:23 [s]
+position_lat [sint32]: 362636383 [semicircles]
+position_long [sint32]: -1165558459 [semicircles]
+distance [uint32]: 1323.91 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.542 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 365. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:27 [s]
+position_lat [sint32]: 362637697 [semicircles]
+position_long [sint32]: -1165557831 [semicircles]
+distance [uint32]: 1337.16 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.713 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 366. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:30 [s]
+position_lat [sint32]: 362638576 [semicircles]
+position_long [sint32]: -1165557978 [semicircles]
+distance [uint32]: 1346.01 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.394 [m/s]
+heart_rate [uint8]: 170 [bpm]
+
+-- 367. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:31 [s]
+position_lat [sint32]: 362638862 [semicircles]
+position_long [sint32]: -1165558125 [semicircles]
+distance [uint32]: 1348.9 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.755 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 368. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:35 [s]
+position_lat [sint32]: 362640212 [semicircles]
+position_long [sint32]: -1165558523 [semicircles]
+distance [uint32]: 1361.97 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.673 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 369. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:39 [s]
+position_lat [sint32]: 362641423 [semicircles]
+position_long [sint32]: -1165558050 [semicircles]
+distance [uint32]: 1373.91 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.388 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 370. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:42 [s]
+position_lat [sint32]: 362642188 [semicircles]
+position_long [sint32]: -1165557846 [semicircles]
+distance [uint32]: 1381.67 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.581 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 371. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:43 [s]
+position_lat [sint32]: 362642378 [semicircles]
+position_long [sint32]: -1165558114 [semicircles]
+distance [uint32]: 1384.45 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 3.028 [m/s]
+heart_rate [uint8]: 168 [bpm]
+
+-- 372. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:46 [s]
+position_lat [sint32]: 362642872 [semicircles]
+position_long [sint32]: -1165558831 [semicircles]
+distance [uint32]: 1392.1 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.838 [m/s]
+heart_rate [uint8]: 169 [bpm]
+
+-- 373. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:48 [s]
+position_lat [sint32]: 362643069 [semicircles]
+position_long [sint32]: -1165559481 [semicircles]
+distance [uint32]: 1397.65 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.706 [m/s]
+heart_rate [uint8]: 171 [bpm]
+
+-- 374. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:50 [s]
+position_lat [sint32]: 362643324 [semicircles]
+position_long [sint32]: -1165560120 [semicircles]
+distance [uint32]: 1403.3 [m]
+altitude [uint16]: 238.4 [m]
+speed [uint16]: 2.768 [m/s]
+heart_rate [uint8]: 172 [bpm]
+
+-- 375. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:54 [s]
+position_lat [sint32]: 362643922 [semicircles]
+position_long [sint32]: -1165561351 [semicircles]
+distance [uint32]: 1414.68 [m]
+altitude [uint16]: 238.6 [m]
+speed [uint16]: 2.652 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 376. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:55 [s]
+position_lat [sint32]: 362644047 [semicircles]
+position_long [sint32]: -1165561722 [semicircles]
+distance [uint32]: 1417.89 [m]
+altitude [uint16]: 239.2 [m]
+speed [uint16]: 2.73 [m/s]
+heart_rate [uint8]: 173 [bpm]
+
+-- 377. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:56 [s]
+position_lat [sint32]: 362644164 [semicircles]
+position_long [sint32]: -1165562082 [semicircles]
+distance [uint32]: 1420.99 [m]
+altitude [uint16]: 239.6 [m]
+speed [uint16]: 2.775 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 378. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:57 [s]
+position_lat [sint32]: 362644229 [semicircles]
+position_long [sint32]: -1165562390 [semicircles]
+distance [uint32]: 1423.54 [m]
+altitude [uint16]: 240.0 [m]
+speed [uint16]: 2.789 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 379. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:58 [s]
+position_lat [sint32]: 362644323 [semicircles]
+position_long [sint32]: -1165562676 [semicircles]
+distance [uint32]: 1426.0 [m]
+altitude [uint16]: 240.4 [m]
+speed [uint16]: 2.815 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 380. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:53:59 [s]
+position_lat [sint32]: 362644408 [semicircles]
+position_long [sint32]: -1165563035 [semicircles]
+distance [uint32]: 1428.99 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.843 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 381. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:01 [s]
+position_lat [sint32]: 362644644 [semicircles]
+position_long [sint32]: -1165563645 [semicircles]
+distance [uint32]: 1434.39 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.867 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 382. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:04 [s]
+position_lat [sint32]: 362644959 [semicircles]
+position_long [sint32]: -1165564717 [semicircles]
+distance [uint32]: 1443.59 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.867 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 383. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:05 [s]
+position_lat [sint32]: 362645059 [semicircles]
+position_long [sint32]: -1165565046 [semicircles]
+distance [uint32]: 1446.39 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.896 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 384. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:08 [s]
+position_lat [sint32]: 362645471 [semicircles]
+position_long [sint32]: -1165566150 [semicircles]
+distance [uint32]: 1456.1 [m]
+altitude [uint16]: 240.8 [m]
+speed [uint16]: 2.92 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 385. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:09 [s]
+position_lat [sint32]: 362645563 [semicircles]
+position_long [sint32]: -1165566569 [semicircles]
+distance [uint32]: 1459.58 [m]
+altitude [uint16]: 241.2 [m]
+speed [uint16]: 2.927 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 386. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:10 [s]
+position_lat [sint32]: 362645694 [semicircles]
+position_long [sint32]: -1165566920 [semicircles]
+distance [uint32]: 1462.66 [m]
+altitude [uint16]: 241.6 [m]
+speed [uint16]: 2.978 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 387. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:11 [s]
+position_lat [sint32]: 362645760 [semicircles]
+position_long [sint32]: -1165567249 [semicircles]
+distance [uint32]: 1465.37 [m]
+altitude [uint16]: 242.2 [m]
+speed [uint16]: 3.026 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 388. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:12 [s]
+position_lat [sint32]: 362645823 [semicircles]
+position_long [sint32]: -1165567561 [semicircles]
+distance [uint32]: 1467.95 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.042 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 389. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:13 [s]
+position_lat [sint32]: 362645904 [semicircles]
+position_long [sint32]: -1165567860 [semicircles]
+distance [uint32]: 1470.48 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 3.004 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 390. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:15 [s]
+position_lat [sint32]: 362646023 [semicircles]
+position_long [sint32]: -1165568523 [semicircles]
+distance [uint32]: 1475.92 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 3.001 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 391. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:18 [s]
+position_lat [sint32]: 362646237 [semicircles]
+position_long [sint32]: -1165569654 [semicircles]
+distance [uint32]: 1485.4 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.917 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 392. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:19 [s]
+position_lat [sint32]: 362646353 [semicircles]
+position_long [sint32]: -1165569992 [semicircles]
+distance [uint32]: 1488.33 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.957 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 393. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:22 [s]
+position_lat [sint32]: 362646614 [semicircles]
+position_long [sint32]: -1165571041 [semicircles]
+distance [uint32]: 1497.41 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.925 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 394. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:23 [s]
+position_lat [sint32]: 362646680 [semicircles]
+position_long [sint32]: -1165571435 [semicircles]
+distance [uint32]: 1500.64 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.888 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 395. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:26 [s]
+position_lat [sint32]: 362646865 [semicircles]
+position_long [sint32]: -1165572658 [semicircles]
+distance [uint32]: 1510.64 [m]
+altitude [uint16]: 243.2 [m]
+speed [uint16]: 3.026 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 396. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:27 [s]
+position_lat [sint32]: 362646934 [semicircles]
+position_long [sint32]: -1165573042 [semicircles]
+distance [uint32]: 1513.8 [m]
+altitude [uint16]: 243.6 [m]
+speed [uint16]: 3.085 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 397. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:28 [s]
+position_lat [sint32]: 362647077 [semicircles]
+position_long [sint32]: -1165573435 [semicircles]
+distance [uint32]: 1517.24 [m]
+altitude [uint16]: 244.0 [m]
+speed [uint16]: 3.132 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 398. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:29 [s]
+position_lat [sint32]: 362647163 [semicircles]
+position_long [sint32]: -1165573832 [semicircles]
+distance [uint32]: 1520.52 [m]
+altitude [uint16]: 244.4 [m]
+speed [uint16]: 3.198 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 399. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:30 [s]
+position_lat [sint32]: 362647313 [semicircles]
+position_long [sint32]: -1165574204 [semicircles]
+distance [uint32]: 1523.83 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.228 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 400. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:31 [s]
+position_lat [sint32]: 362647514 [semicircles]
+position_long [sint32]: -1165574450 [semicircles]
+distance [uint32]: 1526.54 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.192 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 401. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:33 [s]
+position_lat [sint32]: 362647825 [semicircles]
+position_long [sint32]: -1165575002 [semicircles]
+distance [uint32]: 1531.93 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.14 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 402. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:38 [s]
+position_lat [sint32]: 362648633 [semicircles]
+position_long [sint32]: -1165576559 [semicircles]
+distance [uint32]: 1546.69 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.028 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 403. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:43 [s]
+position_lat [sint32]: 362649782 [semicircles]
+position_long [sint32]: -1165578266 [semicircles]
+distance [uint32]: 1564.09 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.045 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 404. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:49 [s]
+position_lat [sint32]: 362651333 [semicircles]
+position_long [sint32]: -1165580473 [semicircles]
+distance [uint32]: 1587.04 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.608 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 405. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:55 [s]
+position_lat [sint32]: 362652411 [semicircles]
+position_long [sint32]: -1165582667 [semicircles]
+distance [uint32]: 1607.48 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.298 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 406. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:54:56 [s]
+position_lat [sint32]: 362652632 [semicircles]
+position_long [sint32]: -1165583003 [semicircles]
+distance [uint32]: 1610.88 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 4.046 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 407. #19: lap (42 entries) 
+-----------------------------timestamp [date_time]: 2013-06-29 10:54:56 [s]
+start_time [date_time]: 2013-06-29 10:40:11
+start_position_lat [sint32]: 362667470 [semicircles]
+start_position_long [sint32]: -1165653659 [semicircles]
+end_position_lat [sint32]: 362652632 [semicircles]
+end_position_long [sint32]: -1165583003 [semicircles]
+total_elapsed_time [uint32]: 885.609 [s]
+total_timer_time [uint32]: 885.232 [s]
+total_distance [uint32]: 1609.35 [m]
+total_strides [uint32]: None
+unknown [sint32]: 362667470
+unknown [sint32]: -1165550514
+unknown [sint32]: 362621383
+unknown [sint32]: -1165654244
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 0
+total_calories [uint16]: 166 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 1.818 [m/s]
+max_speed [uint16]: 5.087 [m/s]
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 40 [m]
+total_descent [uint16]: 31 [m]
+unknown [uint16]: 0
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: 0
+event [event]: lap
+event_type [event_type]: stop
+avg_heart_rate [uint8]: 165 [bpm]
+max_heart_rate [uint8]: 177 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+intensity [intensity]: None
+lap_trigger [lap_trigger]: distance
+sport [sport]: running
+event_group [uint8]: None
+unknown [enum]: None
+
+-- 408. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:00 [s]
+position_lat [sint32]: 362653154 [semicircles]
+position_long [sint32]: -1165584444 [semicircles]
+distance [uint32]: 1623.49 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.763 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 409. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:05 [s]
+position_lat [sint32]: 362653201 [semicircles]
+position_long [sint32]: -1165586330 [semicircles]
+distance [uint32]: 1639.0 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.668 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 410. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:10 [s]
+position_lat [sint32]: 362652889 [semicircles]
+position_long [sint32]: -1165588426 [semicircles]
+distance [uint32]: 1656.17 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.242 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 411. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:12 [s]
+position_lat [sint32]: 362652911 [semicircles]
+position_long [sint32]: -1165589135 [semicircles]
+distance [uint32]: 1661.91 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.297 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 412. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 741452112
+unknown [uint16]: 4034
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 35
+
+-- 413. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:13 [s]
+position_lat [sint32]: 362652929 [semicircles]
+position_long [sint32]: -1165589523 [semicircles]
+distance [uint32]: 1665.04 [m]
+altitude [uint16]: 244.2 [m]
+speed [uint16]: 3.232 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 414. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:14 [s]
+position_lat [sint32]: 362652862 [semicircles]
+position_long [sint32]: -1165589949 [semicircles]
+distance [uint32]: 1668.52 [m]
+altitude [uint16]: 243.8 [m]
+speed [uint16]: 3.213 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 415. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:15 [s]
+position_lat [sint32]: 362652883 [semicircles]
+position_long [sint32]: -1165590366 [semicircles]
+distance [uint32]: 1671.89 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.249 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 416. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:16 [s]
+position_lat [sint32]: 362652930 [semicircles]
+position_long [sint32]: -1165590744 [semicircles]
+distance [uint32]: 1674.96 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 3.271 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 417. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:17 [s]
+position_lat [sint32]: 362652914 [semicircles]
+position_long [sint32]: -1165591155 [semicircles]
+distance [uint32]: 1678.27 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.279 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 418. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:20 [s]
+position_lat [sint32]: 362652824 [semicircles]
+position_long [sint32]: -1165592489 [semicircles]
+distance [uint32]: 1689.05 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.396 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 419. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:24 [s]
+position_lat [sint32]: 362652745 [semicircles]
+position_long [sint32]: -1165594496 [semicircles]
+distance [uint32]: 1705.24 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.457 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 420. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:29 [s]
+position_lat [sint32]: 362652835 [semicircles]
+position_long [sint32]: -1165597096 [semicircles]
+distance [uint32]: 1726.24 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.947 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 421. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:30 [s]
+position_lat [sint32]: 362652813 [semicircles]
+position_long [sint32]: -1165597576 [semicircles]
+distance [uint32]: 1730.1 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.998 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 422. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:31 [s]
+position_lat [sint32]: 362652757 [semicircles]
+position_long [sint32]: -1165598039 [semicircles]
+distance [uint32]: 1733.87 [m]
+altitude [uint16]: 242.0 [m]
+speed [uint16]: 3.972 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 423. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:32 [s]
+position_lat [sint32]: 362652735 [semicircles]
+position_long [sint32]: -1165598466 [semicircles]
+distance [uint32]: 1737.31 [m]
+altitude [uint16]: 241.6 [m]
+speed [uint16]: 3.999 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 424. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:33 [s]
+position_lat [sint32]: 362652718 [semicircles]
+position_long [sint32]: -1165598865 [semicircles]
+distance [uint32]: 1740.53 [m]
+altitude [uint16]: 241.2 [m]
+speed [uint16]: 4.007 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 425. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:34 [s]
+position_lat [sint32]: 362652661 [semicircles]
+position_long [sint32]: -1165599236 [semicircles]
+distance [uint32]: 1743.56 [m]
+altitude [uint16]: 240.8 [m]
+speed [uint16]: 3.998 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 426. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:35 [s]
+position_lat [sint32]: 362652659 [semicircles]
+position_long [sint32]: -1165599611 [semicircles]
+distance [uint32]: 1746.58 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.921 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 427. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:38 [s]
+position_lat [sint32]: 362652733 [semicircles]
+position_long [sint32]: -1165600851 [semicircles]
+distance [uint32]: 1756.57 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.711 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 428. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:43 [s]
+position_lat [sint32]: 362652710 [semicircles]
+position_long [sint32]: -1165602905 [semicircles]
+distance [uint32]: 1773.1 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.324 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 429. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:48 [s]
+position_lat [sint32]: 362652892 [semicircles]
+position_long [sint32]: -1165604610 [semicircles]
+distance [uint32]: 1786.98 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.091 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 430. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:55:53 [s]
+position_lat [sint32]: 362653020 [semicircles]
+position_long [sint32]: -1165606504 [semicircles]
+distance [uint32]: 1802.29 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.043 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 431. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:00 [s]
+position_lat [sint32]: 362653240 [semicircles]
+position_long [sint32]: -1165609278 [semicircles]
+distance [uint32]: 1824.98 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.179 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 432. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:01 [s]
+position_lat [sint32]: 362653289 [semicircles]
+position_long [sint32]: -1165609643 [semicircles]
+distance [uint32]: 1827.95 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.185 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 433. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:03 [s]
+position_lat [sint32]: 362653386 [semicircles]
+position_long [sint32]: -1165610348 [semicircles]
+distance [uint32]: 1833.73 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.238 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 434. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:07 [s]
+position_lat [sint32]: 362653413 [semicircles]
+position_long [sint32]: -1165611975 [semicircles]
+distance [uint32]: 1846.9 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.268 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 435. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:09 [s]
+position_lat [sint32]: 362653114 [semicircles]
+position_long [sint32]: -1165612792 [semicircles]
+distance [uint32]: 1854.02 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.297 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 436. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:10 [s]
+position_lat [sint32]: 362653090 [semicircles]
+position_long [sint32]: -1165613031 [semicircles]
+distance [uint32]: 1855.92 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.328 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 437. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:12 [s]
+position_lat [sint32]: 362653188 [semicircles]
+position_long [sint32]: -1165613588 [semicircles]
+distance [uint32]: 1860.5 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 3.149 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 438. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:14 [s]
+position_lat [sint32]: 362653458 [semicircles]
+position_long [sint32]: -1165614165 [semicircles]
+distance [uint32]: 1865.75 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.998 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 439. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:18 [s]
+position_lat [sint32]: 362653887 [semicircles]
+position_long [sint32]: -1165615274 [semicircles]
+distance [uint32]: 1875.72 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.787 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 440. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:22 [s]
+position_lat [sint32]: 362654197 [semicircles]
+position_long [sint32]: -1165616610 [semicircles]
+distance [uint32]: 1886.95 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.616 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 441. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:23 [s]
+position_lat [sint32]: 362654215 [semicircles]
+position_long [sint32]: -1165616993 [semicircles]
+distance [uint32]: 1890.03 [m]
+altitude [uint16]: 240.6 [m]
+speed [uint16]: 2.623 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 442. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:24 [s]
+position_lat [sint32]: 362654313 [semicircles]
+position_long [sint32]: -1165617340 [semicircles]
+distance [uint32]: 1892.98 [m]
+altitude [uint16]: 240.8 [m]
+speed [uint16]: 2.677 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 443. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:25 [s]
+position_lat [sint32]: 362654356 [semicircles]
+position_long [sint32]: -1165617712 [semicircles]
+distance [uint32]: 1896.0 [m]
+altitude [uint16]: 241.2 [m]
+speed [uint16]: 2.725 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 444. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:26 [s]
+position_lat [sint32]: 362654427 [semicircles]
+position_long [sint32]: -1165618043 [semicircles]
+distance [uint32]: 1898.75 [m]
+altitude [uint16]: 241.6 [m]
+speed [uint16]: 2.741 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 445. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:27 [s]
+position_lat [sint32]: 362654522 [semicircles]
+position_long [sint32]: -1165618304 [semicircles]
+distance [uint32]: 1901.03 [m]
+altitude [uint16]: 242.2 [m]
+speed [uint16]: 2.761 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 446. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:28 [s]
+position_lat [sint32]: 362654533 [semicircles]
+position_long [sint32]: -1165618764 [semicircles]
+distance [uint32]: 1904.72 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.748 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 447. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:29 [s]
+position_lat [sint32]: 362654633 [semicircles]
+position_long [sint32]: -1165619095 [semicircles]
+distance [uint32]: 1907.55 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.808 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 448. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:32 [s]
+position_lat [sint32]: 362654888 [semicircles]
+position_long [sint32]: -1165620225 [semicircles]
+distance [uint32]: 1916.99 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.89 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 449. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:34 [s]
+position_lat [sint32]: 362655013 [semicircles]
+position_long [sint32]: -1165620978 [semicircles]
+distance [uint32]: 1923.26 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.913 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 450. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:35 [s]
+position_lat [sint32]: 362654956 [semicircles]
+position_long [sint32]: -1165621397 [semicircles]
+distance [uint32]: 1926.68 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.978 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 451. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:36 [s]
+position_lat [sint32]: 362654979 [semicircles]
+position_long [sint32]: -1165621748 [semicircles]
+distance [uint32]: 1929.5 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 3.027 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 452. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:37 [s]
+position_lat [sint32]: 362655011 [semicircles]
+position_long [sint32]: -1165622124 [semicircles]
+distance [uint32]: 1932.54 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.03 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 453. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:38 [s]
+position_lat [sint32]: 362655019 [semicircles]
+position_long [sint32]: -1165622495 [semicircles]
+distance [uint32]: 1935.52 [m]
+altitude [uint16]: 243.8 [m]
+speed [uint16]: 3.03 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 454. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:39 [s]
+position_lat [sint32]: 362655008 [semicircles]
+position_long [sint32]: -1165622924 [semicircles]
+distance [uint32]: 1938.98 [m]
+altitude [uint16]: 244.0 [m]
+speed [uint16]: 3.054 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 455. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:40 [s]
+position_lat [sint32]: 362655021 [semicircles]
+position_long [sint32]: -1165623314 [semicircles]
+distance [uint32]: 1942.12 [m]
+altitude [uint16]: 244.4 [m]
+speed [uint16]: 3.113 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 456. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:41 [s]
+position_lat [sint32]: 362655016 [semicircles]
+position_long [sint32]: -1165623678 [semicircles]
+distance [uint32]: 1945.05 [m]
+altitude [uint16]: 244.6 [m]
+speed [uint16]: 3.114 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 457. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:42 [s]
+position_lat [sint32]: 362655083 [semicircles]
+position_long [sint32]: -1165623999 [semicircles]
+distance [uint32]: 1947.71 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 3.109 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 458. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:46 [s]
+position_lat [sint32]: 362655392 [semicircles]
+position_long [sint32]: -1165625251 [semicircles]
+distance [uint32]: 1958.21 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 2.976 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 459. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:51 [s]
+position_lat [sint32]: 362655658 [semicircles]
+position_long [sint32]: -1165626743 [semicircles]
+distance [uint32]: 1970.51 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 2.67 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 460. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:52 [s]
+position_lat [sint32]: 362655659 [semicircles]
+position_long [sint32]: -1165627055 [semicircles]
+distance [uint32]: 1973.02 [m]
+altitude [uint16]: 245.2 [m]
+speed [uint16]: 2.647 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 461. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:53 [s]
+position_lat [sint32]: 362655663 [semicircles]
+position_long [sint32]: -1165627495 [semicircles]
+distance [uint32]: 1976.56 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 2.593 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 462. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:54 [s]
+position_lat [sint32]: 362655674 [semicircles]
+position_long [sint32]: -1165627835 [semicircles]
+distance [uint32]: 1979.3 [m]
+altitude [uint16]: 246.0 [m]
+speed [uint16]: 2.611 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 463. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:55 [s]
+position_lat [sint32]: 362655763 [semicircles]
+position_long [sint32]: -1165628109 [semicircles]
+distance [uint32]: 1981.65 [m]
+altitude [uint16]: 246.4 [m]
+speed [uint16]: 2.64 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 464. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:56:56 [s]
+position_lat [sint32]: 362655809 [semicircles]
+position_long [sint32]: -1165628436 [semicircles]
+distance [uint32]: 1984.3 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 2.586 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 465. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:00 [s]
+position_lat [sint32]: 362655884 [semicircles]
+position_long [sint32]: -1165629976 [semicircles]
+distance [uint32]: 1996.69 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 2.732 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 466. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:04 [s]
+position_lat [sint32]: 362655842 [semicircles]
+position_long [sint32]: -1165631606 [semicircles]
+distance [uint32]: 2010.06 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 3.043 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 467. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:07 [s]
+position_lat [sint32]: 362655823 [semicircles]
+position_long [sint32]: -1165632777 [semicircles]
+distance [uint32]: 2019.59 [m]
+altitude [uint16]: 247.2 [m]
+speed [uint16]: 3.075 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 468. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:08 [s]
+position_lat [sint32]: 362655922 [semicircles]
+position_long [sint32]: -1165633067 [semicircles]
+distance [uint32]: 2022.06 [m]
+altitude [uint16]: 247.6 [m]
+speed [uint16]: 3.127 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 469. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:09 [s]
+position_lat [sint32]: 362656087 [semicircles]
+position_long [sint32]: -1165633353 [semicircles]
+distance [uint32]: 2024.8 [m]
+altitude [uint16]: 248.0 [m]
+speed [uint16]: 3.145 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 470. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:10 [s]
+position_lat [sint32]: 362656195 [semicircles]
+position_long [sint32]: -1165633561 [semicircles]
+distance [uint32]: 2026.69 [m]
+altitude [uint16]: 248.4 [m]
+speed [uint16]: 3.131 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 471. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:11 [s]
+position_lat [sint32]: 362656264 [semicircles]
+position_long [sint32]: -1165633852 [semicircles]
+distance [uint32]: 2029.09 [m]
+altitude [uint16]: 248.8 [m]
+speed [uint16]: 3.05 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 472. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:12 [s]
+position_lat [sint32]: 362656356 [semicircles]
+position_long [sint32]: -1165634141 [semicircles]
+distance [uint32]: 2031.54 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.951 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 473. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:16 [s]
+position_lat [sint32]: 362656774 [semicircles]
+position_long [sint32]: -1165635232 [semicircles]
+distance [uint32]: 2041.28 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.658 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 474. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:19 [s]
+position_lat [sint32]: 362656788 [semicircles]
+position_long [sint32]: -1165636115 [semicircles]
+distance [uint32]: 2048.56 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.487 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 475. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:20 [s]
+position_lat [sint32]: 362656749 [semicircles]
+position_long [sint32]: -1165636493 [semicircles]
+distance [uint32]: 2051.62 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.445 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 476. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:21 [s]
+position_lat [sint32]: 362656777 [semicircles]
+position_long [sint32]: -1165636864 [semicircles]
+distance [uint32]: 2054.61 [m]
+altitude [uint16]: 249.2 [m]
+speed [uint16]: 2.448 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 477. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:22 [s]
+position_lat [sint32]: 362656873 [semicircles]
+position_long [sint32]: -1165637180 [semicircles]
+distance [uint32]: 2057.29 [m]
+altitude [uint16]: 249.4 [m]
+speed [uint16]: 2.488 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 478. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:23 [s]
+position_lat [sint32]: 362656946 [semicircles]
+position_long [sint32]: -1165637523 [semicircles]
+distance [uint32]: 2060.13 [m]
+altitude [uint16]: 249.6 [m]
+speed [uint16]: 2.525 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 479. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:24 [s]
+position_lat [sint32]: 362657008 [semicircles]
+position_long [sint32]: -1165637822 [semicircles]
+distance [uint32]: 2062.6 [m]
+altitude [uint16]: 250.0 [m]
+speed [uint16]: 2.597 [m/s]
+heart_rate [uint8]: 183 [bpm]
+
+-- 480. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:25 [s]
+position_lat [sint32]: 362657096 [semicircles]
+position_long [sint32]: -1165638103 [semicircles]
+distance [uint32]: 2064.99 [m]
+altitude [uint16]: 250.4 [m]
+speed [uint16]: 2.597 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 481. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:26 [s]
+position_lat [sint32]: 362657223 [semicircles]
+position_long [sint32]: -1165638462 [semicircles]
+distance [uint32]: 2068.09 [m]
+altitude [uint16]: 250.8 [m]
+speed [uint16]: 2.579 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 482. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:27 [s]
+position_lat [sint32]: 362657324 [semicircles]
+position_long [sint32]: -1165638734 [semicircles]
+distance [uint32]: 2070.47 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 2.638 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 483. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:29 [s]
+position_lat [sint32]: 362657600 [semicircles]
+position_long [sint32]: -1165639356 [semicircles]
+distance [uint32]: 2076.11 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 2.662 [m/s]
+heart_rate [uint8]: 182 [bpm]
+
+-- 484. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:34 [s]
+position_lat [sint32]: 362657994 [semicircles]
+position_long [sint32]: -1165641509 [semicircles]
+distance [uint32]: 2093.95 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 2.978 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 485. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:40 [s]
+position_lat [sint32]: 362658692 [semicircles]
+position_long [sint32]: -1165643942 [semicircles]
+distance [uint32]: 2114.8 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.409 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 486. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:45 [s]
+position_lat [sint32]: 362659406 [semicircles]
+position_long [sint32]: -1165646065 [semicircles]
+distance [uint32]: 2133.18 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.572 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 487. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:50 [s]
+position_lat [sint32]: 362660301 [semicircles]
+position_long [sint32]: -1165648111 [semicircles]
+distance [uint32]: 2151.63 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.664 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 488. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:54 [s]
+position_lat [sint32]: 362660604 [semicircles]
+position_long [sint32]: -1165649316 [semicircles]
+distance [uint32]: 2161.71 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.493 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 489. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:57:57 [s]
+position_lat [sint32]: 362661033 [semicircles]
+position_long [sint32]: -1165650628 [semicircles]
+distance [uint32]: 2173.07 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.406 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 490. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:01 [s]
+position_lat [sint32]: 362661486 [semicircles]
+position_long [sint32]: -1165652419 [semicircles]
+distance [uint32]: 2188.16 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.266 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 491. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:06 [s]
+position_lat [sint32]: 362662165 [semicircles]
+position_long [sint32]: -1165654264 [semicircles]
+distance [uint32]: 2204.34 [m]
+altitude [uint16]: 251.0 [m]
+speed [uint16]: 3.477 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 492. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:07 [s]
+position_lat [sint32]: 362662299 [semicircles]
+position_long [sint32]: -1165654631 [semicircles]
+distance [uint32]: 2207.54 [m]
+altitude [uint16]: 250.8 [m]
+speed [uint16]: 3.534 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 493. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:08 [s]
+position_lat [sint32]: 362662395 [semicircles]
+position_long [sint32]: -1165655096 [semicircles]
+distance [uint32]: 2211.39 [m]
+altitude [uint16]: 250.4 [m]
+speed [uint16]: 3.515 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 494. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:09 [s]
+position_lat [sint32]: 362662483 [semicircles]
+position_long [sint32]: -1165655491 [semicircles]
+distance [uint32]: 2214.68 [m]
+altitude [uint16]: 250.0 [m]
+speed [uint16]: 3.494 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 495. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:10 [s]
+position_lat [sint32]: 362662572 [semicircles]
+position_long [sint32]: -1165655809 [semicircles]
+distance [uint32]: 2217.36 [m]
+altitude [uint16]: 249.6 [m]
+speed [uint16]: 3.483 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 496. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:11 [s]
+position_lat [sint32]: 362662648 [semicircles]
+position_long [sint32]: -1165656089 [semicircles]
+distance [uint32]: 2219.72 [m]
+altitude [uint16]: 249.2 [m]
+speed [uint16]: 3.429 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 497. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:12 [s]
+position_lat [sint32]: 362662707 [semicircles]
+position_long [sint32]: -1165656358 [semicircles]
+distance [uint32]: 2221.94 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 3.352 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 498. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:14 [s]
+position_lat [sint32]: 362662680 [semicircles]
+position_long [sint32]: -1165656873 [semicircles]
+distance [uint32]: 2226.07 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 3.06 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 499. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:16 [s]
+position_lat [sint32]: 362662691 [semicircles]
+position_long [sint32]: -1165657190 [semicircles]
+distance [uint32]: 2228.62 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.756 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 500. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:21 [s]
+position_lat [sint32]: 362662831 [semicircles]
+position_long [sint32]: -1165657972 [semicircles]
+distance [uint32]: 2235.25 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 1.912 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 501. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:25 [s]
+position_lat [sint32]: 362663537 [semicircles]
+position_long [sint32]: -1165659140 [semicircles]
+distance [uint32]: 2246.86 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 1.717 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 502. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:29 [s]
+position_lat [sint32]: 362664009 [semicircles]
+position_long [sint32]: -1165660274 [semicircles]
+distance [uint32]: 2257.03 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.267 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 503. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:30 [s]
+position_lat [sint32]: 362664058 [semicircles]
+position_long [sint32]: -1165660387 [semicircles]
+distance [uint32]: 2258.04 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.304 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 504. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:33 [s]
+position_lat [sint32]: 362664475 [semicircles]
+position_long [sint32]: -1165661630 [semicircles]
+distance [uint32]: 2268.8 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 2.485 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 505. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:36 [s]
+position_lat [sint32]: 362665015 [semicircles]
+position_long [sint32]: -1165663220 [semicircles]
+distance [uint32]: 2283.05 [m]
+altitude [uint16]: 249.0 [m]
+speed [uint16]: 3.234 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 506. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:39 [s]
+position_lat [sint32]: 362666110 [semicircles]
+position_long [sint32]: -1165664273 [semicircles]
+distance [uint32]: 2296.3 [m]
+altitude [uint16]: 248.8 [m]
+speed [uint16]: 3.413 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 507. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:40 [s]
+position_lat [sint32]: 362666422 [semicircles]
+position_long [sint32]: -1165664616 [semicircles]
+distance [uint32]: 2300.3 [m]
+altitude [uint16]: 248.2 [m]
+speed [uint16]: 3.53 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 508. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:41 [s]
+position_lat [sint32]: 362666678 [semicircles]
+position_long [sint32]: -1165665043 [semicircles]
+distance [uint32]: 2304.48 [m]
+altitude [uint16]: 247.8 [m]
+speed [uint16]: 3.664 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 509. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:42 [s]
+position_lat [sint32]: 362666900 [semicircles]
+position_long [sint32]: -1165665555 [semicircles]
+distance [uint32]: 2309.09 [m]
+altitude [uint16]: 247.6 [m]
+speed [uint16]: 3.875 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 510. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:43 [s]
+position_lat [sint32]: 362667134 [semicircles]
+position_long [sint32]: -1165666055 [semicircles]
+distance [uint32]: 2313.66 [m]
+altitude [uint16]: 247.2 [m]
+speed [uint16]: 4.164 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 511. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:44 [s]
+position_lat [sint32]: 362667309 [semicircles]
+position_long [sint32]: -1165666634 [semicircles]
+distance [uint32]: 2318.6 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 4.405 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 512. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:45 [s]
+position_lat [sint32]: 362667536 [semicircles]
+position_long [sint32]: -1165667179 [semicircles]
+distance [uint32]: 2323.46 [m]
+altitude [uint16]: 246.8 [m]
+speed [uint16]: 4.53 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 513. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:46 [s]
+position_lat [sint32]: 362667812 [semicircles]
+position_long [sint32]: -1165667772 [semicircles]
+distance [uint32]: 2328.88 [m]
+altitude [uint16]: 246.4 [m]
+speed [uint16]: 4.548 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 514. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:47 [s]
+position_lat [sint32]: 362668075 [semicircles]
+position_long [sint32]: -1165668307 [semicircles]
+distance [uint32]: 2333.84 [m]
+altitude [uint16]: 246.0 [m]
+speed [uint16]: 4.554 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 515. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:48 [s]
+position_lat [sint32]: 362668438 [semicircles]
+position_long [sint32]: -1165668876 [semicircles]
+distance [uint32]: 2339.53 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 4.581 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 516. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:49 [s]
+position_lat [sint32]: 362668761 [semicircles]
+position_long [sint32]: -1165669315 [semicircles]
+distance [uint32]: 2344.16 [m]
+altitude [uint16]: 245.2 [m]
+speed [uint16]: 4.695 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 517. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:50 [s]
+position_lat [sint32]: 362669092 [semicircles]
+position_long [sint32]: -1165669780 [semicircles]
+distance [uint32]: 2349.0 [m]
+altitude [uint16]: 245.4 [m]
+speed [uint16]: 4.745 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 518. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:51 [s]
+position_lat [sint32]: 362669378 [semicircles]
+position_long [sint32]: -1165670257 [semicircles]
+distance [uint32]: 2353.67 [m]
+altitude [uint16]: 245.8 [m]
+speed [uint16]: 4.749 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 519. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:52 [s]
+position_lat [sint32]: 362669658 [semicircles]
+position_long [sint32]: -1165670714 [semicircles]
+distance [uint32]: 2358.18 [m]
+altitude [uint16]: 246.0 [m]
+speed [uint16]: 4.777 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 520. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:53 [s]
+position_lat [sint32]: 362669899 [semicircles]
+position_long [sint32]: -1165671172 [semicircles]
+distance [uint32]: 2362.5 [m]
+altitude [uint16]: 245.6 [m]
+speed [uint16]: 4.809 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 521. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:54 [s]
+position_lat [sint32]: 362670147 [semicircles]
+position_long [sint32]: -1165671636 [semicircles]
+distance [uint32]: 2366.89 [m]
+altitude [uint16]: 245.4 [m]
+speed [uint16]: 4.847 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 522. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:55 [s]
+position_lat [sint32]: 362670363 [semicircles]
+position_long [sint32]: -1165672029 [semicircles]
+distance [uint32]: 2370.63 [m]
+altitude [uint16]: 244.8 [m]
+speed [uint16]: 4.83 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 523. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:56 [s]
+position_lat [sint32]: 362670563 [semicircles]
+position_long [sint32]: -1165672444 [semicircles]
+distance [uint32]: 2374.45 [m]
+altitude [uint16]: 244.2 [m]
+speed [uint16]: 4.769 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 524. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:57 [s]
+position_lat [sint32]: 362670779 [semicircles]
+position_long [sint32]: -1165672759 [semicircles]
+distance [uint32]: 2377.69 [m]
+altitude [uint16]: 243.6 [m]
+speed [uint16]: 4.689 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 525. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:58 [s]
+position_lat [sint32]: 362670995 [semicircles]
+position_long [sint32]: -1165673167 [semicircles]
+distance [uint32]: 2381.53 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 4.564 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 526. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:58:59 [s]
+position_lat [sint32]: 362671165 [semicircles]
+position_long [sint32]: -1165673560 [semicircles]
+distance [uint32]: 2385.08 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 4.434 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 527. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:00 [s]
+position_lat [sint32]: 362671376 [semicircles]
+position_long [sint32]: -1165673967 [semicircles]
+distance [uint32]: 2388.89 [m]
+altitude [uint16]: 243.2 [m]
+speed [uint16]: 4.316 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 528. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:01 [s]
+position_lat [sint32]: 362671626 [semicircles]
+position_long [sint32]: -1165674386 [semicircles]
+distance [uint32]: 2392.99 [m]
+altitude [uint16]: 243.2 [m]
+speed [uint16]: 4.154 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 529. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:02 [s]
+position_lat [sint32]: 362671835 [semicircles]
+position_long [sint32]: -1165674753 [semicircles]
+distance [uint32]: 2396.52 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 4.081 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 530. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:03 [s]
+position_lat [sint32]: 362672198 [semicircles]
+position_long [sint32]: -1165674981 [semicircles]
+distance [uint32]: 2400.36 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 3.992 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 531. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:04 [s]
+position_lat [sint32]: 362672674 [semicircles]
+position_long [sint32]: -1165675073 [semicircles]
+distance [uint32]: 2404.84 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 3.914 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 532. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:05 [s]
+position_lat [sint32]: 362673118 [semicircles]
+position_long [sint32]: -1165675149 [semicircles]
+distance [uint32]: 2409.0 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.892 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 533. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:06 [s]
+position_lat [sint32]: 362673598 [semicircles]
+position_long [sint32]: -1165675258 [semicircles]
+distance [uint32]: 2413.54 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.87 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 534. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:10 [s]
+position_lat [sint32]: 362675175 [semicircles]
+position_long [sint32]: -1165675950 [semicircles]
+distance [uint32]: 2429.26 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.998 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 535. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:14 [s]
+position_lat [sint32]: 362676112 [semicircles]
+position_long [sint32]: -1165677159 [semicircles]
+distance [uint32]: 2442.42 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.869 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 536. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:19 [s]
+position_lat [sint32]: 362676811 [semicircles]
+position_long [sint32]: -1165678785 [semicircles]
+distance [uint32]: 2456.97 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.401 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 537. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:21 [s]
+position_lat [sint32]: 362677081 [semicircles]
+position_long [sint32]: -1165679188 [semicircles]
+distance [uint32]: 2461.08 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.168 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 538. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:23 [s]
+position_lat [sint32]: 362677217 [semicircles]
+position_long [sint32]: -1165679889 [semicircles]
+distance [uint32]: 2466.85 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.917 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 539. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:25 [s]
+position_lat [sint32]: 362677413 [semicircles]
+position_long [sint32]: -1165680648 [semicircles]
+distance [uint32]: 2473.21 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.914 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 540. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:28 [s]
+position_lat [sint32]: 362677933 [semicircles]
+position_long [sint32]: -1165681624 [semicircles]
+distance [uint32]: 2482.39 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.816 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 541. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:33 [s]
+position_lat [sint32]: 362678820 [semicircles]
+position_long [sint32]: -1165683389 [semicircles]
+distance [uint32]: 2498.82 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.997 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 542. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:37 [s]
+position_lat [sint32]: 362679458 [semicircles]
+position_long [sint32]: -1165684615 [semicircles]
+distance [uint32]: 2510.34 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.145 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 543. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:43 [s]
+position_lat [sint32]: 362680379 [semicircles]
+position_long [sint32]: -1165686421 [semicircles]
+distance [uint32]: 2527.31 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 3.005 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 544. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:45 [s]
+position_lat [sint32]: 362680685 [semicircles]
+position_long [sint32]: -1165687104 [semicircles]
+distance [uint32]: 2533.61 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.92 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 545. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:46 [s]
+position_lat [sint32]: 362680837 [semicircles]
+position_long [sint32]: -1165687391 [semicircles]
+distance [uint32]: 2536.31 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.889 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 546. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:51 [s]
+position_lat [sint32]: 362681907 [semicircles]
+position_long [sint32]: -1165688649 [semicircles]
+distance [uint32]: 2550.63 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.813 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 547. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:52 [s]
+position_lat [sint32]: 362682117 [semicircles]
+position_long [sint32]: -1165688894 [semicircles]
+distance [uint32]: 2553.38 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.812 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 548. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 10:59:56 [s]
+position_lat [sint32]: 362682978 [semicircles]
+position_long [sint32]: -1165690031 [semicircles]
+distance [uint32]: 2565.53 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.924 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 549. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:01 [s]
+position_lat [sint32]: 362683906 [semicircles]
+position_long [sint32]: -1165691312 [semicircles]
+distance [uint32]: 2579.03 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.891 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 550. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:02 [s]
+position_lat [sint32]: 362684134 [semicircles]
+position_long [sint32]: -1165691541 [semicircles]
+distance [uint32]: 2581.82 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.881 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 551. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:04 [s]
+position_lat [sint32]: 362684680 [semicircles]
+position_long [sint32]: -1165691919 [semicircles]
+distance [uint32]: 2587.68 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.853 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 552. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:06 [s]
+position_lat [sint32]: 362685158 [semicircles]
+position_long [sint32]: -1165692377 [semicircles]
+distance [uint32]: 2593.44 [m]
+altitude [uint16]: 242.4 [m]
+speed [uint16]: 2.847 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 553. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741452408
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 3
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 554. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:08 [s]
+position_lat [sint32]: 362685606 [semicircles]
+position_long [sint32]: -1165692884 [semicircles]
+distance [uint32]: 2599.26 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.835 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 555. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:10 [s]
+position_lat [sint32]: 362686094 [semicircles]
+position_long [sint32]: -1165693296 [semicircles]
+distance [uint32]: 2604.89 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.841 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 556. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 741452412
+unknown [uint16]: 4042
+unknown [sint16]: None
+unknown [uint8]: 90
+unknown [sint8]: 34
+
+-- 557. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:15 [s]
+position_lat [sint32]: 362687347 [semicircles]
+position_long [sint32]: -1165694453 [semicircles]
+distance [uint32]: 2619.83 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.973 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 558. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:20 [s]
+position_lat [sint32]: 362688530 [semicircles]
+position_long [sint32]: -1165695581 [semicircles]
+distance [uint32]: 2634.06 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.934 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 559. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:26 [s]
+position_lat [sint32]: 362690179 [semicircles]
+position_long [sint32]: -1165696522 [semicircles]
+distance [uint32]: 2651.19 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.875 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 560. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:33 [s]
+position_lat [sint32]: 362692144 [semicircles]
+position_long [sint32]: -1165697642 [semicircles]
+distance [uint32]: 2671.59 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.859 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 561. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:38 [s]
+position_lat [sint32]: 362692931 [semicircles]
+position_long [sint32]: -1165698017 [semicircles]
+distance [uint32]: 2679.51 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.597 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 562. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:43 [s]
+position_lat [sint32]: 362693783 [semicircles]
+position_long [sint32]: -1165698193 [semicircles]
+distance [uint32]: 2687.71 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 1.87 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 563. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:45 [s]
+position_lat [sint32]: 362694402 [semicircles]
+position_long [sint32]: -1165698545 [semicircles]
+distance [uint32]: 2694.12 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 1.888 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 564. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:48 [s]
+position_lat [sint32]: 362695355 [semicircles]
+position_long [sint32]: -1165699038 [semicircles]
+distance [uint32]: 2703.84 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.012 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 565. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741452450
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 566. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:50 [s]
+position_lat [sint32]: 362695927 [semicircles]
+position_long [sint32]: -1165699378 [semicircles]
+distance [uint32]: 2709.82 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 2.326 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 567. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:54 [s]
+position_lat [sint32]: 362696956 [semicircles]
+position_long [sint32]: -1165699974 [semicircles]
+distance [uint32]: 2720.55 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 2.962 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 568. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:00:59 [s]
+position_lat [sint32]: 362698504 [semicircles]
+position_long [sint32]: -1165700764 [semicircles]
+distance [uint32]: 2736.3 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 2.981 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 569. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:05 [s]
+position_lat [sint32]: 362700162 [semicircles]
+position_long [sint32]: -1165701925 [semicircles]
+distance [uint32]: 2754.38 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.009 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 570. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:11 [s]
+position_lat [sint32]: 362701970 [semicircles]
+position_long [sint32]: -1165703011 [semicircles]
+distance [uint32]: 2773.41 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.065 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 571. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:14 [s]
+position_lat [sint32]: 362702876 [semicircles]
+position_long [sint32]: -1165703443 [semicircles]
+distance [uint32]: 2782.62 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.134 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 572. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:16 [s]
+position_lat [sint32]: 362703408 [semicircles]
+position_long [sint32]: -1165703827 [semicircles]
+distance [uint32]: 2788.46 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.106 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 573. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:22 [s]
+position_lat [sint32]: 362705264 [semicircles]
+position_long [sint32]: -1165704526 [semicircles]
+distance [uint32]: 2806.59 [m]
+altitude [uint16]: 243.4 [m]
+speed [uint16]: 3.118 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 574. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741452488
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 3
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 575. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:28 [s]
+position_lat [sint32]: 362707079 [semicircles]
+position_long [sint32]: -1165705444 [semicircles]
+distance [uint32]: 2825.09 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 3.04 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 576. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:34 [s]
+position_lat [sint32]: 362708795 [semicircles]
+position_long [sint32]: -1165706426 [semicircles]
+distance [uint32]: 2842.92 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 3.087 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 577. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:39 [s]
+position_lat [sint32]: 362709948 [semicircles]
+position_long [sint32]: -1165707180 [semicircles]
+distance [uint32]: 2855.3 [m]
+altitude [uint16]: 243.0 [m]
+speed [uint16]: 2.887 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 578. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:41 [s]
+position_lat [sint32]: 362710491 [semicircles]
+position_long [sint32]: -1165707514 [semicircles]
+distance [uint32]: 2861.05 [m]
+altitude [uint16]: 242.8 [m]
+speed [uint16]: 2.763 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 579. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:42 [s]
+position_lat [sint32]: 362710722 [semicircles]
+position_long [sint32]: -1165707610 [semicircles]
+distance [uint32]: 2863.31 [m]
+altitude [uint16]: 242.6 [m]
+speed [uint16]: 2.747 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 580. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:43 [s]
+position_lat [sint32]: 362711018 [semicircles]
+position_long [sint32]: -1165707777 [semicircles]
+distance [uint32]: 2866.38 [m]
+altitude [uint16]: 242.2 [m]
+speed [uint16]: 2.712 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 581. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:44 [s]
+position_lat [sint32]: 362711279 [semicircles]
+position_long [sint32]: -1165707913 [semicircles]
+distance [uint32]: 2869.03 [m]
+altitude [uint16]: 241.6 [m]
+speed [uint16]: 2.684 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 582. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:45 [s]
+position_lat [sint32]: 362711559 [semicircles]
+position_long [sint32]: -1165708072 [semicircles]
+distance [uint32]: 2871.93 [m]
+altitude [uint16]: 241.2 [m]
+speed [uint16]: 2.661 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 583. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:46 [s]
+position_lat [sint32]: 362711847 [semicircles]
+position_long [sint32]: -1165708227 [semicircles]
+distance [uint32]: 2874.88 [m]
+altitude [uint16]: 241.0 [m]
+speed [uint16]: 2.635 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 584. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:50 [s]
+position_lat [sint32]: 362713113 [semicircles]
+position_long [sint32]: -1165708624 [semicircles]
+distance [uint32]: 2887.09 [m]
+altitude [uint16]: 241.0 [m]
+speed [uint16]: 2.808 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 585. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:01:55 [s]
+position_lat [sint32]: 362714728 [semicircles]
+position_long [sint32]: -1165709452 [semicircles]
+distance [uint32]: 2903.56 [m]
+altitude [uint16]: 241.0 [m]
+speed [uint16]: 3.077 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 586. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:01 [s]
+position_lat [sint32]: 362716323 [semicircles]
+position_long [sint32]: -1165710759 [semicircles]
+distance [uint32]: 2921.79 [m]
+altitude [uint16]: 241.0 [m]
+speed [uint16]: 3.157 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 587. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:06 [s]
+position_lat [sint32]: 362717592 [semicircles]
+position_long [sint32]: -1165711867 [semicircles]
+distance [uint32]: 2936.62 [m]
+altitude [uint16]: 241.0 [m]
+speed [uint16]: 3.076 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 588. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741452531
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 589. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:11 [s]
+position_lat [sint32]: 362718906 [semicircles]
+position_long [sint32]: -1165712924 [semicircles]
+distance [uint32]: 2951.55 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.027 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 590. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741452532
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 3
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 591. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:12 [s]
+position_lat [sint32]: 362719095 [semicircles]
+position_long [sint32]: -1165713160 [semicircles]
+distance [uint32]: 2954.14 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.021 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 592. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:18 [s]
+position_lat [sint32]: 362720504 [semicircles]
+position_long [sint32]: -1165714491 [semicircles]
+distance [uint32]: 2971.1 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 2.929 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 593. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:23 [s]
+position_lat [sint32]: 362721650 [semicircles]
+position_long [sint32]: -1165715845 [semicircles]
+distance [uint32]: 2986.4 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 2.885 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 594. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:28 [s]
+position_lat [sint32]: 362722843 [semicircles]
+position_long [sint32]: -1165717099 [semicircles]
+distance [uint32]: 3001.39 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 2.945 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 595. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:34 [s]
+position_lat [sint32]: 362724150 [semicircles]
+position_long [sint32]: -1165718891 [semicircles]
+distance [uint32]: 3020.27 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.093 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 596. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:39 [s]
+position_lat [sint32]: 362725014 [semicircles]
+position_long [sint32]: -1165720536 [semicircles]
+distance [uint32]: 3035.69 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.16 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 597. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:46 [s]
+position_lat [sint32]: 362726153 [semicircles]
+position_long [sint32]: -1165722698 [semicircles]
+distance [uint32]: 3056.08 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.018 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 598. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:52 [s]
+position_lat [sint32]: 362727065 [semicircles]
+position_long [sint32]: -1165724773 [semicircles]
+distance [uint32]: 3074.78 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.017 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 599. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:02:56 [s]
+position_lat [sint32]: 362727686 [semicircles]
+position_long [sint32]: -1165726533 [semicircles]
+distance [uint32]: 3090.08 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.241 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 600. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:01 [s]
+position_lat [sint32]: 362728091 [semicircles]
+position_long [sint32]: -1165728944 [semicircles]
+distance [uint32]: 3110.02 [m]
+altitude [uint16]: 240.2 [m]
+speed [uint16]: 3.598 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 601. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:02 [s]
+position_lat [sint32]: 362728214 [semicircles]
+position_long [sint32]: -1165729374 [semicircles]
+distance [uint32]: 3113.66 [m]
+altitude [uint16]: 239.8 [m]
+speed [uint16]: 3.727 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 602. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:03 [s]
+position_lat [sint32]: 362728378 [semicircles]
+position_long [sint32]: -1165729852 [semicircles]
+distance [uint32]: 3117.79 [m]
+altitude [uint16]: 239.4 [m]
+speed [uint16]: 3.756 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 603. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:04 [s]
+position_lat [sint32]: 362728594 [semicircles]
+position_long [sint32]: -1165730268 [semicircles]
+distance [uint32]: 3121.69 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 3.833 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 604. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:05 [s]
+position_lat [sint32]: 362728882 [semicircles]
+position_long [sint32]: -1165730634 [semicircles]
+distance [uint32]: 3125.68 [m]
+altitude [uint16]: 238.6 [m]
+speed [uint16]: 3.906 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 605. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:06 [s]
+position_lat [sint32]: 362729164 [semicircles]
+position_long [sint32]: -1165730924 [semicircles]
+distance [uint32]: 3129.18 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.902 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 606. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:08 [s]
+position_lat [sint32]: 362729423 [semicircles]
+position_long [sint32]: -1165731624 [semicircles]
+distance [uint32]: 3135.63 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.872 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 607. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:09 [s]
+position_lat [sint32]: 362729491 [semicircles]
+position_long [sint32]: -1165732071 [semicircles]
+distance [uint32]: 3139.28 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.817 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 608. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:12 [s]
+position_lat [sint32]: 362730059 [semicircles]
+position_long [sint32]: -1165733132 [semicircles]
+distance [uint32]: 3149.28 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.716 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 609. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:14 [s]
+position_lat [sint32]: 362730462 [semicircles]
+position_long [sint32]: -1165734008 [semicircles]
+distance [uint32]: 3157.28 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.628 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 610. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:18 [s]
+position_lat [sint32]: 362731383 [semicircles]
+position_long [sint32]: -1165735469 [semicircles]
+distance [uint32]: 3171.87 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.576 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 611. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:20 [s]
+position_lat [sint32]: 362731728 [semicircles]
+position_long [sint32]: -1165736211 [semicircles]
+distance [uint32]: 3178.83 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.593 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 612. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:22 [s]
+position_lat [sint32]: 362732155 [semicircles]
+position_long [sint32]: -1165736701 [semicircles]
+distance [uint32]: 3184.43 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.571 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 613. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:26 [s]
+position_lat [sint32]: 362732925 [semicircles]
+position_long [sint32]: -1165737720 [semicircles]
+distance [uint32]: 3195.55 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.341 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 614. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:29 [s]
+position_lat [sint32]: 362733505 [semicircles]
+position_long [sint32]: -1165738571 [semicircles]
+distance [uint32]: 3204.26 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.034 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 615. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:31 [s]
+position_lat [sint32]: 362733937 [semicircles]
+position_long [sint32]: -1165739021 [semicircles]
+distance [uint32]: 3209.68 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.927 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 616. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:35 [s]
+position_lat [sint32]: 362734653 [semicircles]
+position_long [sint32]: -1165740005 [semicircles]
+distance [uint32]: 3220.06 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.742 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 617. #19: lap (42 entries) 
+-----------------------------timestamp [date_time]: 2013-06-29 11:03:35 [s]
+start_time [date_time]: 2013-06-29 10:54:57
+start_position_lat [sint32]: 362652798 [semicircles]
+start_position_long [sint32]: -1165583311 [semicircles]
+end_position_lat [sint32]: 362734653 [semicircles]
+end_position_long [sint32]: -1165740005 [semicircles]
+total_elapsed_time [uint32]: 519.377 [s]
+total_timer_time [uint32]: 518.883 [s]
+total_distance [uint32]: 1609.35 [m]
+total_strides [uint32]: None
+unknown [sint32]: 362734653
+unknown [sint32]: -1165583311
+unknown [sint32]: 362652659
+unknown [sint32]: -1165740005
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 1
+total_calories [uint16]: 106 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 3.102 [m/s]
+max_speed [uint16]: 4.847 [m/s]
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 13 [m]
+total_descent [uint16]: 19 [m]
+unknown [uint16]: 0
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: 0
+event [event]: lap
+event_type [event_type]: stop
+avg_heart_rate [uint8]: 178 [bpm]
+max_heart_rate [uint8]: 183 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+intensity [intensity]: None
+lap_trigger [lap_trigger]: distance
+sport [sport]: running
+event_group [uint8]: None
+unknown [enum]: None
+
+-- 618. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:37 [s]
+position_lat [sint32]: 362735009 [semicircles]
+position_long [sint32]: -1165740459 [semicircles]
+distance [uint32]: 3224.98 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.691 [m/s]
+heart_rate [uint8]: 174 [bpm]
+
+-- 619. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:42 [s]
+position_lat [sint32]: 362735869 [semicircles]
+position_long [sint32]: -1165741646 [semicircles]
+distance [uint32]: 3237.48 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.606 [m/s]
+heart_rate [uint8]: 175 [bpm]
+
+-- 620. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:48 [s]
+position_lat [sint32]: 362737163 [semicircles]
+position_long [sint32]: -1165742960 [semicircles]
+distance [uint32]: 3253.53 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.573 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 621. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:03:55 [s]
+position_lat [sint32]: 362738729 [semicircles]
+position_long [sint32]: -1165744469 [semicircles]
+distance [uint32]: 3272.55 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.697 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 622. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:00 [s]
+position_lat [sint32]: 362739991 [semicircles]
+position_long [sint32]: -1165745466 [semicircles]
+distance [uint32]: 3286.89 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.825 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 623. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:05 [s]
+position_lat [sint32]: 362741208 [semicircles]
+position_long [sint32]: -1165746411 [semicircles]
+distance [uint32]: 3300.65 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.798 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 624. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:09 [s]
+position_lat [sint32]: 362742071 [semicircles]
+position_long [sint32]: -1165747391 [semicircles]
+distance [uint32]: 3311.88 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.819 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 625. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:14 [s]
+position_lat [sint32]: 362743247 [semicircles]
+position_long [sint32]: -1165748519 [semicircles]
+distance [uint32]: 3326.29 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 2.817 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 626. #22: unknown (10 entries) 
+-------------------------unknown [uint32]: 741452657
+unknown [uint8]: 3
+unknown [uint8]: 3
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 627. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:17 [s]
+position_lat [sint32]: 362743904 [semicircles]
+position_long [sint32]: -1165749217 [semicircles]
+distance [uint32]: 3334.59 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 2.851 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 628. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:21 [s]
+position_lat [sint32]: 362744944 [semicircles]
+position_long [sint32]: -1165750235 [semicircles]
+distance [uint32]: 3347.28 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 2.897 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 629. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:26 [s]
+position_lat [sint32]: 362746398 [semicircles]
+position_long [sint32]: -1165751454 [semicircles]
+distance [uint32]: 3363.95 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 3.1 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 630. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:31 [s]
+position_lat [sint32]: 362747959 [semicircles]
+position_long [sint32]: -1165752505 [semicircles]
+distance [uint32]: 3380.78 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 3.321 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 631. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:37 [s]
+position_lat [sint32]: 362749669 [semicircles]
+position_long [sint32]: -1165753803 [semicircles]
+distance [uint32]: 3399.85 [m]
+altitude [uint16]: 239.0 [m]
+speed [uint16]: 3.315 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 632. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:41 [s]
+position_lat [sint32]: 362751115 [semicircles]
+position_long [sint32]: -1165754341 [semicircles]
+distance [uint32]: 3414.1 [m]
+altitude [uint16]: 238.6 [m]
+speed [uint16]: 3.315 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 633. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:42 [s]
+position_lat [sint32]: 362751368 [semicircles]
+position_long [sint32]: -1165754519 [semicircles]
+distance [uint32]: 3416.85 [m]
+altitude [uint16]: 238.2 [m]
+speed [uint16]: 3.325 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 634. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:43 [s]
+position_lat [sint32]: 362751711 [semicircles]
+position_long [sint32]: -1165754835 [semicircles]
+distance [uint32]: 3420.93 [m]
+altitude [uint16]: 237.8 [m]
+speed [uint16]: 3.319 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 635. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:44 [s]
+position_lat [sint32]: 362752058 [semicircles]
+position_long [sint32]: -1165755056 [semicircles]
+distance [uint32]: 3424.6 [m]
+altitude [uint16]: 237.4 [m]
+speed [uint16]: 3.351 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 636. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:45 [s]
+position_lat [sint32]: 362752419 [semicircles]
+position_long [sint32]: -1165755210 [semicircles]
+distance [uint32]: 3428.18 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 3.402 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 637. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:50 [s]
+position_lat [sint32]: 362754097 [semicircles]
+position_long [sint32]: -1165755804 [semicircles]
+distance [uint32]: 3444.52 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 3.484 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 638. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:04:55 [s]
+position_lat [sint32]: 362755619 [semicircles]
+position_long [sint32]: -1165756281 [semicircles]
+distance [uint32]: 3459.23 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 3.277 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 639. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:00 [s]
+position_lat [sint32]: 362757200 [semicircles]
+position_long [sint32]: -1165756992 [semicircles]
+distance [uint32]: 3475.08 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 3.136 [m/s]
+heart_rate [uint8]: 180 [bpm]
+
+-- 640. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:07 [s]
+position_lat [sint32]: 362759256 [semicircles]
+position_long [sint32]: -1165757843 [semicircles]
+distance [uint32]: 3495.41 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 3.077 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 641. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 741452712
+unknown [uint16]: 4038
+unknown [sint16]: None
+unknown [uint8]: 90
+unknown [sint8]: 34
+
+-- 642. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:13 [s]
+position_lat [sint32]: 362761014 [semicircles]
+position_long [sint32]: -1165758958 [semicircles]
+distance [uint32]: 3514.07 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 2.975 [m/s]
+heart_rate [uint8]: 181 [bpm]
+
+-- 643. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:18 [s]
+position_lat [sint32]: 362762303 [semicircles]
+position_long [sint32]: -1165759812 [semicircles]
+distance [uint32]: 3527.93 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 3.001 [m/s]
+heart_rate [uint8]: 179 [bpm]
+
+-- 644. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:23 [s]
+position_lat [sint32]: 362763077 [semicircles]
+position_long [sint32]: -1165760146 [semicircles]
+distance [uint32]: 3535.62 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 2.534 [m/s]
+heart_rate [uint8]: 178 [bpm]
+
+-- 645. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:28 [s]
+position_lat [sint32]: 362763873 [semicircles]
+position_long [sint32]: -1165760297 [semicircles]
+distance [uint32]: 3543.24 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 1.838 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 646. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:29 [s]
+position_lat [sint32]: 362763988 [semicircles]
+position_long [sint32]: -1165760243 [semicircles]
+distance [uint32]: 3544.39 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 1.748 [m/s]
+heart_rate [uint8]: 177 [bpm]
+
+-- 647. #20: record (7 entries) 
+---------------------------timestamp [date_time]: 2013-06-29 11:05:30 [s]
+position_lat [sint32]: 362764082 [semicircles]
+position_long [sint32]: -1165760184 [semicircles]
+distance [uint32]: 3545.38 [m]
+altitude [uint16]: 236.8 [m]
+speed [uint16]: 1.666 [m/s]
+heart_rate [uint8]: 176 [bpm]
+
+-- 648. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 11:05:30 [s]
+timer_trigger [timer_trigger]: manual
+event [event]: timer
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 649. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-06-29 11:05:30 [s]
+serial_number [uint32z]: 3863488130
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1328
+software_version [uint16]: 2.7
+battery_voltage [uint16]: None
+device_index [device_index]: creator
+device_type [device_type]: antfs
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 650. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-06-29 11:05:30 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 1
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 651. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-06-29 11:05:30 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1080
+software_version [uint16]: 200.51
+battery_voltage [uint16]: None
+device_index [device_index]: 3
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 652. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-06-29 11:05:30 [s]
+serial_number [uint32z]: 24692146
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: 6323
+unknown [uint32]: 35
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 2
+device_type [device_type]: heart_rate
+hardware_version [uint8]: None
+unknown [uint8]: 99
+battery_status [battery_status]: None
+
+-- 653. #19: lap (42 entries) 
+-----------------------------timestamp [date_time]: 2013-06-29 11:05:37 [s]
+start_time [date_time]: 2013-06-29 11:03:36
+start_position_lat [sint32]: 362734829 [semicircles]
+start_position_long [sint32]: -1165740208 [semicircles]
+end_position_lat [sint32]: 362764082 [semicircles]
+end_position_long [sint32]: -1165760184 [semicircles]
+total_elapsed_time [uint32]: 115.01 [s]
+total_timer_time [uint32]: 115.01 [s]
+total_distance [uint32]: 326.68 [m]
+total_strides [uint32]: None
+unknown [sint32]: 362764082
+unknown [sint32]: -1165740208
+unknown [sint32]: 362734829
+unknown [sint32]: -1165760319
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 2
+total_calories [uint16]: 23 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 2.84 [m/s]
+max_speed [uint16]: 3.484 [m/s]
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 1 [m]
+total_descent [uint16]: 2 [m]
+unknown [uint16]: 0
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: 0
+event [event]: lap
+event_type [event_type]: stop
+avg_heart_rate [uint8]: 178 [bpm]
+max_heart_rate [uint8]: 181 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+intensity [intensity]: None
+lap_trigger [lap_trigger]: session_end
+sport [sport]: running
+event_group [uint8]: None
+unknown [enum]: None
+
+-- 654. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-06-29 11:05:37 [s]
+data [uint32]: 1
+event [event]: session
+event_type [event_type]: stop_disable_all
+event_group [uint8]: 1
+
+-- 655. #18: session (50 entries) 
+-------------------------timestamp [date_time]: 2013-06-29 11:05:37 [s]
+start_time [date_time]: 2013-06-29 10:40:11
+start_position_lat [sint32]: 362667470 [semicircles]
+start_position_long [sint32]: -1165653659 [semicircles]
+total_elapsed_time [uint32]: 1519.996 [s]
+total_timer_time [uint32]: 1519.125 [s]
+total_distance [uint32]: 3545.38 [m]
+total_strides [uint32]: None
+nec_lat [sint32]: 362764082 [semicircles]
+nec_long [sint32]: -1165550514 [semicircles]
+swc_lat [sint32]: 362621383 [semicircles]
+swc_long [sint32]: -1165760319 [semicircles]
+unknown [sint32]: None
+unknown [sint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 0
+total_calories [uint16]: 295 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 2.334 [m/s]
+max_speed [uint16]: 5.087 [m/s]
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 54 [m]
+total_descent [uint16]: 52 [m]
+first_lap_index [uint16]: 0
+num_laps [uint16]: 3
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+event [event]: lap
+event_type [event_type]: stop
+sport [sport]: running
+sub_sport [sub_sport]: generic
+avg_heart_rate [uint8]: 170 [bpm]
+max_heart_rate [uint8]: 183 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+total_training_effect [uint8]: 4.0
+event_group [uint8]: None
+trigger [session_trigger]: activity_end
+unknown [enum]: None
+unknown [enum]: None
+
+-- 656. #34: activity (8 entries) 
+-------------------------timestamp [date_time]: 2013-06-29 11:05:37
+total_timer_time [uint32]: 1519.125 [s]
+local_timestamp [date_time]: 2013-06-29 06:05:37
+num_sessions [uint16]: 1
+type [activity]: manual
+event [event]: activity
+event_type [event_type]: stop
+event_group [uint8]: None
+
+-- 657. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 741452737
+unknown [uint16]: 4030
+unknown [sint16]: None
+unknown [uint8]: 90
+unknown [sint8]: 34
+

@@ -1,0 +1,12 @@
+-- 1. #0: file_id (6 entries) 
+-----------------------------serial_number [uint32z]: 3863488130
+time_created [date_time]: None
+manufacturer [manufacturer]: garmin
+garmin_product [garmin_product]: 1328
+number [uint16]: None
+type [file]: goals
+
+-- 2. #49: file_creator (2 entries) 
+-----------------------software_version [uint16]: 270
+hardware_version [uint8]: None
+

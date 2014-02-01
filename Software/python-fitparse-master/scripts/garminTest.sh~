@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "start_time,total_distance,avg_speed,total_elapsed_time" > garmin_data.csv
+sleep 2
+sudo python sample_program.py ~/.config/garmin-extractor/3863488130/activities/2014-01-12_12-25-08-80-161144.fit

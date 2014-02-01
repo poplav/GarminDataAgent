@@ -1,0 +1,4 @@
+python sample_program.py /home/mike/.config/garmin-extractor/3863488130/activities/2014-01-05_14-13-36-80-20222.fit
+
+Running R script from directory
+R CMD BATCH garminDataViz.R

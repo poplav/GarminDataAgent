@@ -1,0 +1,330 @@
+-- 1. #0: file_id (6 entries) 
+-----------------------------serial_number [uint32z]: 3863488130
+time_created [date_time]: 2013-08-31 18:17:54
+manufacturer [manufacturer]: garmin
+garmin_product [garmin_product]: 1328
+number [uint16]: None
+type [file]: activity
+
+-- 2. #49: file_creator (2 entries) 
+-----------------------software_version [uint16]: 270
+hardware_version [uint8]: None
+
+-- 3. #21: event (5 entries) 
+------------------------------timestamp [date_time]: 2013-08-31 18:17:54 [s]
+timer_trigger [timer_trigger]: manual
+event [event]: timer
+event_type [event_type]: start
+event_group [uint8]: 0
+
+-- 4. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-31 18:17:54 [s]
+serial_number [uint32z]: 3863488130
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1328
+software_version [uint16]: 2.7
+battery_voltage [uint16]: None
+device_index [device_index]: creator
+device_type [device_type]: antfs
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 5. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-31 18:17:54 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 1
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 6. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-31 18:17:54 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1080
+software_version [uint16]: 200.51
+battery_voltage [uint16]: None
+device_index [device_index]: 2
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 7. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-31 18:17:54 [s]
+serial_number [uint32z]: 24692146
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: 846
+unknown [uint32]: 11
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 3
+device_type [device_type]: heart_rate
+hardware_version [uint8]: None
+unknown [uint8]: 99
+battery_status [battery_status]: None
+
+-- 8. #22: unknown (10 entries) 
+---------------------------unknown [uint32]: 746921874
+unknown [uint8]: 2
+unknown [uint8]: 2
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 3
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 9. #79: unknown (9 entries) 
+----------------------------unknown [uint32]: 746921874
+unknown [uint16]: 13182
+unknown [uint16]: 630
+unknown [uint8]: 21
+unknown [uint8]: 175
+unknown [enum]: 1
+unknown [enum]: 50
+unknown [uint8]: 195
+unknown [sint8]: 1
+
+-- 10. #20: record (7 entries) 
+----------------------------timestamp [date_time]: 2013-08-31 18:17:54 [s]
+position_lat [sint32]: 360265253 [semicircles]
+position_long [sint32]: -973936118 [semicircles]
+distance [uint32]: 0.0 [m]
+altitude [uint16]: 32.8 [m]
+speed [uint16]: 0.0 [m/s]
+heart_rate [uint8]: 70 [bpm]
+
+-- 11. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-31 18:17:55 [s]
+altitude [uint16]: 32.8 [m]
+heart_rate [uint8]: 70 [bpm]
+
+-- 12. #21: event (5 entries) 
+-----------------------------timestamp [date_time]: 2013-08-31 18:17:55 [s]
+timer_trigger [timer_trigger]: manual
+event [event]: timer
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 13. #23: device_info (15 entries) 
+----------------------timestamp [date_time]: 2013-08-31 18:17:55 [s]
+serial_number [uint32z]: 3863488130
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1328
+software_version [uint16]: 2.7
+battery_voltage [uint16]: None
+device_index [device_index]: creator
+device_type [device_type]: antfs
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 14. #23: device_info (15 entries) 
+----------------------timestamp [date_time]: 2013-08-31 18:17:55 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 1
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 15. #23: device_info (15 entries) 
+----------------------timestamp [date_time]: 2013-08-31 18:17:55 [s]
+serial_number [uint32z]: 24692146
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: 851
+unknown [uint32]: 11
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 3
+device_type [device_type]: heart_rate
+hardware_version [uint8]: None
+unknown [uint8]: 99
+battery_status [battery_status]: None
+
+-- 16. #104: unknown (5 entries) 
+--------------------------unknown [uint32]: 746921876
+unknown [uint16]: 3975
+unknown [sint16]: None
+unknown [uint8]: 85
+unknown [sint8]: 26
+
+-- 17. #21: event (5 entries) 
+-----------------------------timestamp [date_time]: 2013-08-31 18:19:14 [s]
+data [uint32]: 0
+event [event]: power_down
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 18. #21: event (5 entries) 
+-----------------------------timestamp [date_time]: 2013-09-01 07:19:49 [s]
+data [uint32]: 0
+event [event]: power_up
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 19. #104: unknown (5 entries) 
+--------------------------unknown [uint32]: 746968790
+unknown [uint16]: 3988
+unknown [sint16]: None
+unknown [uint8]: 85
+unknown [sint8]: 25
+
+-- 20. #19: lap (42 entries) 
+------------------------------timestamp [date_time]: 2013-09-01 07:20:04 [s]
+start_time [date_time]: 2013-08-31 18:17:54
+start_position_lat [sint32]: 360265253 [semicircles]
+start_position_long [sint32]: -973936118 [semicircles]
+end_position_lat [sint32]: 360265253 [semicircles]
+end_position_long [sint32]: -973936118 [semicircles]
+total_elapsed_time [uint32]: 0.606 [s]
+total_timer_time [uint32]: 0.606 [s]
+total_distance [uint32]: 0.0 [m]
+total_strides [uint32]: None
+unknown [sint32]: 360265253
+unknown [sint32]: -973936118
+unknown [sint32]: 360265253
+unknown [sint32]: -973936118
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 0
+total_calories [uint16]: 0 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 0.0 [m/s]
+max_speed [uint16]: 0.0 [m/s]
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 0 [m]
+total_descent [uint16]: 0 [m]
+unknown [uint16]: 0
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: 0
+event [event]: lap
+event_type [event_type]: stop
+avg_heart_rate [uint8]: 70 [bpm]
+max_heart_rate [uint8]: 70 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+intensity [intensity]: None
+lap_trigger [lap_trigger]: session_end
+sport [sport]: running
+event_group [uint8]: None
+unknown [enum]: None
+
+-- 21. #21: event (5 entries) 
+-----------------------------timestamp [date_time]: 2013-09-01 07:20:04 [s]
+data [uint32]: 1
+event [event]: session
+event_type [event_type]: stop_disable_all
+event_group [uint8]: 1
+
+-- 22. #18: session (50 entries) 
+--------------------------timestamp [date_time]: 2013-09-01 07:20:04 [s]
+start_time [date_time]: 2013-08-31 18:17:54
+start_position_lat [sint32]: 360265253 [semicircles]
+start_position_long [sint32]: -973936118 [semicircles]
+total_elapsed_time [uint32]: 0.606 [s]
+total_timer_time [uint32]: 0.606 [s]
+total_distance [uint32]: 0.0 [m]
+total_strides [uint32]: None
+nec_lat [sint32]: 360265253 [semicircles]
+nec_long [sint32]: -973936118 [semicircles]
+swc_lat [sint32]: 360265253 [semicircles]
+swc_long [sint32]: -973936118 [semicircles]
+unknown [sint32]: None
+unknown [sint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 0
+total_calories [uint16]: 0 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 0.0 [m/s]
+max_speed [uint16]: 0.0 [m/s]
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 0 [m]
+total_descent [uint16]: 0 [m]
+first_lap_index [uint16]: 0
+num_laps [uint16]: 1
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+event [event]: lap
+event_type [event_type]: stop
+sport [sport]: running
+sub_sport [sub_sport]: generic
+avg_heart_rate [uint8]: 70 [bpm]
+max_heart_rate [uint8]: 70 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+total_training_effect [uint8]: 1.0
+event_group [uint8]: None
+trigger [session_trigger]: activity_end
+unknown [enum]: None
+unknown [enum]: None
+
+-- 23. #34: activity (8 entries) 
+--------------------------timestamp [date_time]: 2013-09-01 07:20:04
+total_timer_time [uint32]: 0.606 [s]
+local_timestamp [date_time]: 2013-09-01 03:20:04
+num_sessions [uint16]: 1
+type [activity]: manual
+event [event]: activity
+event_type [event_type]: stop
+event_group [uint8]: None
+
+-- 24. #104: unknown (5 entries) 
+--------------------------unknown [uint32]: 746968804
+unknown [uint16]: 3970
+unknown [sint16]: None
+unknown [uint8]: 85
+unknown [sint8]: 25
+

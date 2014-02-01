@@ -1,0 +1,68 @@
+#!/usr/bin/env python
+
+import os
+import sys
+
+# Add folder to search path
+
+PROJECT_PATH = os.path.realpath(os.path.join(sys.path[0], '..'))
+sys.path.append(PROJECT_PATH)
+
+from fitparse import Activity
+
+quiet = 'quiet' in sys.argv or '-q' in sys.argv
+filenames = None
+
+startTime = None
+totalDistance = None
+avgSpeed = None
+totalElapsedTime = None
+
+if len(sys.argv) >= 2:
+    filenames = [f for f in sys.argv[1:] if os.path.exists(f)]
+    index = sys.argv[1].rfind('/')
+    fOut = sys.argv[1][index+1:]
+    fOut = fOut.replace(".fit", ".txt")
+    #fobj = os.path.join(os.pardir, "filename")
+    fobj = open(os.path.join(os.pardir, "filename.txt"), "w")
+    fobj.write("test\n")
+    f1=open('./garmin_data.csv', 'a')
+
+if not filenames:
+    filenames = [os.path.join(PROJECT_PATH, 'tests', 'data', 'sample-activity.fit')]
+
+
+def print_record(rec, ):
+    for field in rec.fields:
+	if "start_time" in field.name:
+	    global startTime
+            startTime = field.data
+        if "total_distance" in field.name:
+	    global totalDistance
+            totalDistance = field.data
+	    totalDistance *= 0.0006213711922373
+	if "avg_speed" in field.name:
+	    global avgSpeed
+            avgSpeed = field.data
+	    avgSpeed *= 2.236936292054
+	if "total_elapsed_time" in field.name:
+	    global totalElapsedTime
+            totalElapsedTime = field.data
+            totalElapsedTime /= 3600
+
+for f in filenames:
+    if quiet:
+        print f
+    else:
+        print ('File =  %s ' % f)
+
+    print_hook_func = None
+    if not quiet:
+        print_hook_func = print_record
+
+    record_number = 0
+    a = Activity(f)
+    a.parse(hook_func=print_hook_func)
+    if startTime is not None:
+        f1.write("%s,%s,%s,%s\n" % (startTime,totalDistance,avgSpeed,totalElapsedTime))
+	print ("%s,%s,%s,%s\n" % (startTime,totalDistance,avgSpeed,totalElapsedTime))

@@ -1,0 +1,2934 @@
+-- 1. #0: file_id (6 entries) 
+-----------------------------serial_number [uint32z]: 3863488130
+time_created [date_time]: 2013-08-18 17:55:04
+manufacturer [manufacturer]: garmin
+garmin_product [garmin_product]: 1328
+number [uint16]: None
+type [file]: activity
+
+-- 2. #49: file_creator (2 entries) 
+-----------------------software_version [uint16]: 270
+hardware_version [uint8]: None
+
+-- 3. #21: event (5 entries) 
+------------------------------timestamp [date_time]: 2013-08-18 17:55:04 [s]
+timer_trigger [timer_trigger]: manual
+event [event]: timer
+event_type [event_type]: start
+event_group [uint8]: 0
+
+-- 4. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-18 17:55:04 [s]
+serial_number [uint32z]: 3863488130
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1328
+software_version [uint16]: 2.7
+battery_voltage [uint16]: None
+device_index [device_index]: creator
+device_type [device_type]: antfs
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 5. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-18 17:55:04 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 1
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 6. #23: device_info (15 entries) 
+-----------------------timestamp [date_time]: 2013-08-18 17:55:04 [s]
+serial_number [uint32z]: 24692146
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: 1722
+unknown [uint32]: 13
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 2
+device_type [device_type]: heart_rate
+hardware_version [uint8]: None
+unknown [uint8]: 99
+battery_status [battery_status]: None
+
+-- 7. #22: unknown (10 entries) 
+---------------------------unknown [uint32]: 745797304
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: 1
+unknown [uint8]: 2
+unknown [enum]: 3
+unknown [uint8]: None
+unknown [uint8]: None
+unknown [uint8]: None
+
+-- 8. #79: unknown (9 entries) 
+----------------------------unknown [uint32]: 745797304
+unknown [uint16]: 13343
+unknown [uint16]: 630
+unknown [uint8]: 21
+unknown [uint8]: 175
+unknown [enum]: 1
+unknown [enum]: 50
+unknown [uint8]: 195
+unknown [sint8]: 1
+
+-- 9. #20: record (3 entries) 
+-----------------------------timestamp [date_time]: 2013-08-18 17:55:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 93 [bpm]
+
+-- 10. #104: unknown (5 entries) 
+--------------------------unknown [uint32]: 745797305
+unknown [uint16]: 4057
+unknown [sint16]: None
+unknown [uint8]: 92
+unknown [sint8]: 29
+
+-- 11. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:07 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 94 [bpm]
+
+-- 12. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 95 [bpm]
+
+-- 13. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:15 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 96 [bpm]
+
+-- 14. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 97 [bpm]
+
+-- 15. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:17 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 98 [bpm]
+
+-- 16. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:20 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 99 [bpm]
+
+-- 17. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:21 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 100 [bpm]
+
+-- 18. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:22 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 101 [bpm]
+
+-- 19. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:23 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 102 [bpm]
+
+-- 20. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:24 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 103 [bpm]
+
+-- 21. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:27 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 104 [bpm]
+
+-- 22. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:30 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 105 [bpm]
+
+-- 23. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:34 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 104 [bpm]
+
+-- 24. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:37 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 103 [bpm]
+
+-- 25. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:38 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 104 [bpm]
+
+-- 26. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:41 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 105 [bpm]
+
+-- 27. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:43 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 104 [bpm]
+
+-- 28. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:46 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 105 [bpm]
+
+-- 29. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 104 [bpm]
+
+-- 30. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:48 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 105 [bpm]
+
+-- 31. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:52 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 106 [bpm]
+
+-- 32. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 107 [bpm]
+
+-- 33. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 108 [bpm]
+
+-- 34. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:55 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 110 [bpm]
+
+-- 35. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 112 [bpm]
+
+-- 36. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 113 [bpm]
+
+-- 37. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:58 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 115 [bpm]
+
+-- 38. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:55:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 116 [bpm]
+
+-- 39. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:00 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 117 [bpm]
+
+-- 40. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:01 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 118 [bpm]
+
+-- 41. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 117 [bpm]
+
+-- 42. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:05 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 116 [bpm]
+
+-- 43. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 115 [bpm]
+
+-- 44. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:07 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 114 [bpm]
+
+-- 45. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:08 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 113 [bpm]
+
+-- 46. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:09 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 112 [bpm]
+
+-- 47. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:10 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 111 [bpm]
+
+-- 48. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:12 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 110 [bpm]
+
+-- 49. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 108 [bpm]
+
+-- 50. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:14 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 107 [bpm]
+
+-- 51. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 108 [bpm]
+
+-- 52. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:23 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 107 [bpm]
+
+-- 53. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:26 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 108 [bpm]
+
+-- 54. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 109 [bpm]
+
+-- 55. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:32 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 110 [bpm]
+
+-- 56. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:34 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 111 [bpm]
+
+-- 57. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:38 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 110 [bpm]
+
+-- 58. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:40 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 109 [bpm]
+
+-- 59. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:46 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 110 [bpm]
+
+-- 60. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:50 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 111 [bpm]
+
+-- 61. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:51 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 112 [bpm]
+
+-- 62. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:52 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 113 [bpm]
+
+-- 63. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 114 [bpm]
+
+-- 64. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 115 [bpm]
+
+-- 65. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:55 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 116 [bpm]
+
+-- 66. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 115 [bpm]
+
+-- 67. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 116 [bpm]
+
+-- 68. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:56:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 117 [bpm]
+
+-- 69. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:01 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 118 [bpm]
+
+-- 70. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:03 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 119 [bpm]
+
+-- 71. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 120 [bpm]
+
+-- 72. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:08 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 121 [bpm]
+
+-- 73. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:09 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 122 [bpm]
+
+-- 74. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 123 [bpm]
+
+-- 75. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:17 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 122 [bpm]
+
+-- 76. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 123 [bpm]
+
+-- 77. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:19 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 122 [bpm]
+
+-- 78. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:20 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 123 [bpm]
+
+-- 79. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:24 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 122 [bpm]
+
+-- 80. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:26 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 121 [bpm]
+
+-- 81. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:28 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 122 [bpm]
+
+-- 82. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 123 [bpm]
+
+-- 83. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 124 [bpm]
+
+-- 84. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:33 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 125 [bpm]
+
+-- 85. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:39 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 124 [bpm]
+
+-- 86. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:42 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 125 [bpm]
+
+-- 87. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:44 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 126 [bpm]
+
+-- 88. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:46 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 127 [bpm]
+
+-- 89. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:55 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 128 [bpm]
+
+-- 90. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 129 [bpm]
+
+-- 91. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:57:58 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 130 [bpm]
+
+-- 92. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:00 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 131 [bpm]
+
+-- 93. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:01 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 132 [bpm]
+
+-- 94. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 133 [bpm]
+
+-- 95. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:07 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 96. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 133 [bpm]
+
+-- 97. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:21 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 98. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:23 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 135 [bpm]
+
+-- 99. #20: record (3 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 17:58:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 136 [bpm]
+
+-- 100. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 137 [bpm]
+
+-- 101. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:35 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 136 [bpm]
+
+-- 102. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 137 [bpm]
+
+-- 103. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:48 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 104. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:49 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 133 [bpm]
+
+-- 105. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 106. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:55 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 133 [bpm]
+
+-- 107. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:58:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 132 [bpm]
+
+-- 108. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 131 [bpm]
+
+-- 109. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:12 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 132 [bpm]
+
+-- 110. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 133 [bpm]
+
+-- 111. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:15 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 112. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:17 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 135 [bpm]
+
+-- 113. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:26 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 134 [bpm]
+
+-- 114. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:28 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 135 [bpm]
+
+-- 115. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:30 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 136 [bpm]
+
+-- 116. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 137 [bpm]
+
+-- 117. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:34 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 136 [bpm]
+
+-- 118. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:37 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 137 [bpm]
+
+-- 119. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:39 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 138 [bpm]
+
+-- 120. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:40 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 139 [bpm]
+
+-- 121. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:41 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 140 [bpm]
+
+-- 122. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:44 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 139 [bpm]
+
+-- 123. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:45 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 138 [bpm]
+
+-- 124. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 137 [bpm]
+
+-- 125. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:51 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 138 [bpm]
+
+-- 126. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:52 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 140 [bpm]
+
+-- 127. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 141 [bpm]
+
+-- 128. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 129. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 130. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 131. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 17:59:58 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 132. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745797605
+unknown [uint16]: 4063
+unknown [sint16]: None
+unknown [uint8]: 92
+unknown [sint8]: 30
+
+-- 133. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:09 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 134. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:10 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 141 [bpm]
+
+-- 135. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:12 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 140 [bpm]
+
+-- 136. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:14 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 141 [bpm]
+
+-- 137. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:19 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 140 [bpm]
+
+-- 138. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:21 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 141 [bpm]
+
+-- 139. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:23 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 140. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:25 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 141. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:26 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 142. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:28 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 143. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:33 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 142 [bpm]
+
+-- 144. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:38 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 143 [bpm]
+
+-- 145. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:40 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 144 [bpm]
+
+-- 146. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:42 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 145 [bpm]
+
+-- 147. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 146 [bpm]
+
+-- 148. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 149. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:00:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 150. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:03 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 151. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:07 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 152. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:10 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 153. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 154. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:15 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 155. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 156. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 157. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:19 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 158. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:20 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 159. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:23 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 146 [bpm]
+
+-- 160. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:25 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 161. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:35 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 146 [bpm]
+
+-- 162. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:38 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 163. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:43 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 146 [bpm]
+
+-- 164. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 165. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:49 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 166. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:50 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 149 [bpm]
+
+-- 167. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:52 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 150 [bpm]
+
+-- 168. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:01:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 151 [bpm]
+
+-- 169. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:01 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 152 [bpm]
+
+-- 170. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 171. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:08 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 172. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:12 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 173. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 174. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:19 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 175. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:20 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 176. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:21 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 177. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:25 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 178. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:34 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 179. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:37 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 180. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:39 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 181. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:49 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 182. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:51 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 183. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:52 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 184. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 185. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 186. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:02:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 187. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:03 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 188. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 189. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:19 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 190. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:26 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 191. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:27 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 192. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 193. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:32 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 194. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:37 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 195. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:45 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 196. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:48 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 197. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 198. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 199. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:55 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 200. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 201. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:03:58 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 202. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:00 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 203. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:05 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 204. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 205. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:10 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 206. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:12 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 207. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:14 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 208. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:17 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 209. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:20 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 210. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:25 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 211. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 212. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 213. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:37 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 214. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:38 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 215. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:39 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 216. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:42 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 217. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 218. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:49 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 219. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:51 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 220. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 221. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 222. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:04:58 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 223. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:03 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 224. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745797905
+unknown [uint16]: 4062
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 30
+
+-- 225. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 226. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:08 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 227. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:10 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 228. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 229. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 230. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:17 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 231. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 232. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:24 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 233. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 234. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:35 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 235. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:39 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 236. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:46 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 237. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 238. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:48 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 239. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:50 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 240. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:51 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 241. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 242. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:05:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 243. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:05 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 244. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:09 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 245. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 246. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:28 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 247. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 248. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:35 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 249. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:36 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 250. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:38 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 251. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:50 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 252. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 253. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 254. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:06:57 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 255. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:02 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 256. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:03 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 257. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 258. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:08 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 259. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 260. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 261. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:20 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 262. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:21 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 263. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:26 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 264. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:30 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 265. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:33 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 266. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:34 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 267. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:36 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 268. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:44 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 269. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:07:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 270. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 271. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:24 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 272. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:27 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 273. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:33 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 274. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:34 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 275. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:40 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 276. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:41 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 277. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:48 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 278. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:52 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 279. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:08:56 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 280. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 281. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 282. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:09 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 283. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:11 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 284. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:21 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 285. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:28 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 286. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 287. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:33 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 288. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:46 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 289. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:49 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 290. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:50 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 291. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:09:51 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 292. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:03 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 293. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745798205
+unknown [uint16]: 4061
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 31
+
+-- 294. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:11 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 295. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:12 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 296. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:13 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 297. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:16 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 298. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:17 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 299. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:28 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 300. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 301. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:31 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 302. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:39 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 303. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:50 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 304. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:10:53 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 305. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:04 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 306. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:05 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 307. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:06 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 308. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:11 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 309. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:18 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 310. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:29 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 311. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:32 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 312. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:33 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 313. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:47 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 314. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:54 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 173 [bpm]
+
+-- 315. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:58 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 316. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:11:59 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 173 [bpm]
+
+-- 317. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:05 [s]
+altitude [uint16]: 0.0 [m]
+heart_rate [uint8]: 174 [bpm]
+
+-- 318. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:06 [s]
+altitude [uint16]: -0.2 [m]
+heart_rate [uint8]: 174 [bpm]
+
+-- 319. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:07 [s]
+altitude [uint16]: -0.6 [m]
+heart_rate [uint8]: 173 [bpm]
+
+-- 320. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:08 [s]
+altitude [uint16]: -1.0 [m]
+heart_rate [uint8]: 174 [bpm]
+
+-- 321. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:09 [s]
+altitude [uint16]: -1.4 [m]
+heart_rate [uint8]: 174 [bpm]
+
+-- 322. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:10 [s]
+altitude [uint16]: -1.8 [m]
+heart_rate [uint8]: 174 [bpm]
+
+-- 323. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:11 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 174 [bpm]
+
+-- 324. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:13 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 173 [bpm]
+
+-- 325. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:26 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 326. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:29 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 327. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:32 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 328. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:45 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 329. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:48 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 330. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:49 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 331. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:12:59 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 172 [bpm]
+
+-- 332. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:08 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 333. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:10 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 334. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:21 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 171 [bpm]
+
+-- 335. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:22 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 170 [bpm]
+
+-- 336. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:33 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 337. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:42 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 338. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:46 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 339. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:47 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 340. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:53 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 341. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:56 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 342. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:13:59 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 343. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:01 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 344. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:02 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 345. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:05 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 346. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:12 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 347. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:17 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 348. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:23 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 349. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:31 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 350. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:36 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 351. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:39 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 352. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:44 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 353. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:14:50 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 354. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:05 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 355. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745798505
+unknown [uint16]: 4061
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 30
+
+-- 356. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:08 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 357. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:14 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 358. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:15 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 359. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:17 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 360. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:19 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 361. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:27 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 362. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:30 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 363. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:31 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 364. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:33 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 365. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:35 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 366. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:36 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 367. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:40 [s]
+altitude [uint16]: -2.0 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 368. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:44 [s]
+altitude [uint16]: -2.2 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 369. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:45 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 370. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:46 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 371. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:47 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 372. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:48 [s]
+altitude [uint16]: -2.6 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 373. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:49 [s]
+altitude [uint16]: -2.6 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 374. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:50 [s]
+altitude [uint16]: -2.4 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 375. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:52 [s]
+altitude [uint16]: -2.4 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 376. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:54 [s]
+altitude [uint16]: -2.4 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 377. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:57 [s]
+altitude [uint16]: -2.4 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 378. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:15:59 [s]
+altitude [uint16]: -2.4 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 379. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:02 [s]
+altitude [uint16]: -2.4 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 380. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:18 [s]
+altitude [uint16]: -2.6 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 381. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:19 [s]
+altitude [uint16]: -3.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 382. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:20 [s]
+altitude [uint16]: -3.2 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 383. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:21 [s]
+altitude [uint16]: -3.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 384. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:22 [s]
+altitude [uint16]: -3.0 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 385. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:23 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 386. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:24 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 387. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:25 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 388. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:30 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 389. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:31 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 390. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:32 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 391. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:37 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 392. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:38 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 393. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:40 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 394. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:41 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 395. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:42 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 396. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:46 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 397. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:49 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 398. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:50 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 399. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:53 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 400. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:16:54 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 401. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:01 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 169 [bpm]
+
+-- 402. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:08 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 168 [bpm]
+
+-- 403. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:10 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 167 [bpm]
+
+-- 404. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:18 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 405. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:30 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 406. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:36 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 407. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:37 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 408. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:45 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 409. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:46 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 410. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:47 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 411. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:52 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 412. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:17:56 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 413. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:00 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 414. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:08 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 415. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:17 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 416. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:21 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 417. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:24 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 418. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:31 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 419. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:36 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 420. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:40 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 421. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:41 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 422. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:45 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 423. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:18:47 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 424. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:06 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 425. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:11 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 426. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:17 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 427. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:18 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 428. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:25 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 429. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:31 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 430. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:41 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 431. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:42 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 432. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:46 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 433. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:47 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 434. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:48 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 435. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:49 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 436. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:50 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 437. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:51 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 438. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:53 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 166 [bpm]
+
+-- 439. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:19:55 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 165 [bpm]
+
+-- 440. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:01 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 441. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745798805
+unknown [uint16]: 4058
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 30
+
+-- 442. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:10 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 443. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:23 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 444. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:24 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 445. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:25 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 446. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:26 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 447. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:45 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 448. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:46 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 449. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:51 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 450. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:52 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 451. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:54 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 452. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:20:57 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 453. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:02 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 454. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:07 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 455. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:12 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 456. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:15 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 457. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:17 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 458. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:19 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 459. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:27 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 460. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:28 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 461. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:42 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 462. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:48 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 463. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:54 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 464. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:21:55 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 465. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:02 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 466. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:05 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 467. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:13 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 468. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:23 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 469. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:26 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 470. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:28 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 471. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:29 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 472. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:40 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 473. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:43 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 474. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:44 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 475. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:50 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 476. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:51 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 477. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:54 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 478. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:55 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 479. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:22:57 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 480. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:04 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 481. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:07 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 482. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:15 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 483. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:20 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 164 [bpm]
+
+-- 484. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:23 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 485. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:29 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 486. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:31 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 487. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:35 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 488. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:36 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 489. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:37 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 490. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:38 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 491. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:41 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 492. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:43 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 493. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:44 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 494. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:23:47 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 495. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:01 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 496. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:03 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 497. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:05 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 498. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:11 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 163 [bpm]
+
+-- 499. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:12 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 162 [bpm]
+
+-- 500. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:20 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 161 [bpm]
+
+-- 501. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:25 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 160 [bpm]
+
+-- 502. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:29 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 503. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:35 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 504. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:39 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 505. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:41 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 506. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:42 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 507. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:43 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 508. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:24:51 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 509. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:01 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 510. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:02 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 159 [bpm]
+
+-- 511. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:03 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 158 [bpm]
+
+-- 512. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745799105
+unknown [uint16]: 4058
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 30
+
+-- 513. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:06 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 157 [bpm]
+
+-- 514. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:10 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 156 [bpm]
+
+-- 515. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:11 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 155 [bpm]
+
+-- 516. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:12 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 154 [bpm]
+
+-- 517. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:13 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 153 [bpm]
+
+-- 518. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:18 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 152 [bpm]
+
+-- 519. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:26 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 151 [bpm]
+
+-- 520. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:27 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 152 [bpm]
+
+-- 521. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:28 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 151 [bpm]
+
+-- 522. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:32 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 150 [bpm]
+
+-- 523. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:33 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 149 [bpm]
+
+-- 524. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:38 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 148 [bpm]
+
+-- 525. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:39 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 147 [bpm]
+
+-- 526. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:41 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 146 [bpm]
+
+-- 527. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:42 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 145 [bpm]
+
+-- 528. #20: record (3 entries) 
+---------------------------timestamp [date_time]: 2013-08-18 18:25:43 [s]
+altitude [uint16]: -2.8 [m]
+heart_rate [uint8]: 144 [bpm]
+
+-- 529. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 18:25:43 [s]
+timer_trigger [timer_trigger]: manual
+event [event]: timer
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 530. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-08-18 18:25:43 [s]
+serial_number [uint32z]: 3863488130
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: garmin
+product [uint16]: 1328
+software_version [uint16]: 2.7
+battery_voltage [uint16]: None
+device_index [device_index]: creator
+device_type [device_type]: antfs
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 531. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-08-18 18:25:43 [s]
+serial_number [uint32z]: None
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 1
+device_type [device_type]: environment_sensor
+hardware_version [uint8]: None
+unknown [uint8]: None
+battery_status [battery_status]: None
+
+-- 532. #23: device_info (15 entries) 
+---------------------timestamp [date_time]: 2013-08-18 18:25:43 [s]
+serial_number [uint32z]: 24692146
+cum_operating_time [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: 9105
+unknown [uint32]: 97
+manufacturer [manufacturer]: None
+product [uint16]: None
+software_version [uint16]: None
+battery_voltage [uint16]: None
+device_index [device_index]: 2
+device_type [device_type]: heart_rate
+hardware_version [uint8]: None
+unknown [uint8]: 99
+battery_status [battery_status]: None
+
+-- 533. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 18:27:43 [s]
+data [uint32]: 136
+event [event]: recovery_hr
+event_type [event_type]: marker
+event_group [uint8]: None
+
+-- 534. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 18:29:29 [s]
+data [uint32]: 0
+event [event]: power_down
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 535. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 18:29:38 [s]
+data [uint32]: 0
+event [event]: power_up
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 536. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745799379
+unknown [uint16]: 4123
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 30
+
+-- 537. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-18 18:30:08 [s]
+data [uint32]: 0
+event [event]: power_down
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 538. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-20 08:48:42 [s]
+data [uint32]: 0
+event [event]: power_up
+event_type [event_type]: stop_all
+event_group [uint8]: 0
+
+-- 539. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745937323
+unknown [uint16]: 4050
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 25
+
+-- 540. #19: lap (42 entries) 
+-----------------------------timestamp [date_time]: 2013-08-20 08:49:09 [s]
+start_time [date_time]: 2013-08-18 17:55:04
+start_position_lat [sint32]: None
+start_position_long [sint32]: None
+end_position_lat [sint32]: None
+end_position_long [sint32]: None
+total_elapsed_time [uint32]: 1838.6 [s]
+total_timer_time [uint32]: 1838.6 [s]
+total_distance [uint32]: 0.0 [m]
+total_strides [uint32]: None
+unknown [sint32]: None
+unknown [sint32]: None
+unknown [sint32]: None
+unknown [sint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 0
+total_calories [uint16]: 305 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 0.0 [m/s]
+max_speed [uint16]: None
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 1 [m]
+total_descent [uint16]: 4 [m]
+unknown [uint16]: 0
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: 0
+event [event]: lap
+event_type [event_type]: stop
+avg_heart_rate [uint8]: 156 [bpm]
+max_heart_rate [uint8]: 174 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+intensity [intensity]: None
+lap_trigger [lap_trigger]: manual
+sport [sport]: running
+event_group [uint8]: None
+unknown [enum]: None
+
+-- 541. #21: event (5 entries) 
+----------------------------timestamp [date_time]: 2013-08-20 08:49:16 [s]
+data [uint32]: 1
+event [event]: session
+event_type [event_type]: stop_disable_all
+event_group [uint8]: 1
+
+-- 542. #18: session (50 entries) 
+-------------------------timestamp [date_time]: 2013-08-20 08:49:16 [s]
+start_time [date_time]: 2013-08-18 17:55:04
+start_position_lat [sint32]: None
+start_position_long [sint32]: None
+total_elapsed_time [uint32]: 1838.6 [s]
+total_timer_time [uint32]: 1838.6 [s]
+total_distance [uint32]: 0.0 [m]
+total_strides [uint32]: None
+nec_lat [sint32]: None
+nec_long [sint32]: None
+swc_lat [sint32]: None
+swc_long [sint32]: None
+unknown [sint32]: None
+unknown [sint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+unknown [uint32]: None
+message_index [message_index]: 0
+total_calories [uint16]: 305 [kcal]
+total_fat_calories [uint16]: 0 [kcal]
+avg_speed [uint16]: 0.0 [m/s]
+max_speed [uint16]: None
+avg_power [uint16]: None
+max_power [uint16]: None
+total_ascent [uint16]: 1 [m]
+total_descent [uint16]: 4 [m]
+first_lap_index [uint16]: 0
+num_laps [uint16]: 1
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+unknown [uint16]: None
+event [event]: lap
+event_type [event_type]: stop
+sport [sport]: running
+sub_sport [sub_sport]: generic
+avg_heart_rate [uint8]: 156 [bpm]
+max_heart_rate [uint8]: 174 [bpm]
+avg_running_cadence [uint8]: None
+max_running_cadence [uint8]: None
+total_training_effect [uint8]: 4.2
+event_group [uint8]: None
+trigger [session_trigger]: activity_end
+unknown [enum]: None
+unknown [enum]: None
+
+-- 543. #34: activity (8 entries) 
+-------------------------timestamp [date_time]: 2013-08-20 08:49:16
+total_timer_time [uint32]: 1838.6 [s]
+local_timestamp [date_time]: 2013-08-20 03:49:16
+num_sessions [uint16]: 1
+type [activity]: manual
+event [event]: activity
+event_type [event_type]: stop
+event_group [uint8]: None
+
+-- 544. #104: unknown (5 entries) 
+-------------------------unknown [uint32]: 745937356
+unknown [uint16]: 4026
+unknown [sint16]: None
+unknown [uint8]: 91
+unknown [sint8]: 25
+

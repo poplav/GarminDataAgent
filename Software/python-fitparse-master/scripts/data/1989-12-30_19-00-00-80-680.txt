@@ -1,0 +1,203 @@
+-- 1. #0: file_id (6 entries) 
+-----------------------------serial_number [uint32z]: 3863488130
+time_created [date_time]: None
+manufacturer [manufacturer]: garmin
+garmin_product [garmin_product]: 1328
+number [uint16]: None
+type [file]: settings
+
+-- 2. #49: file_creator (2 entries) 
+-----------------------software_version [uint16]: 280
+hardware_version [uint8]: None
+
+-- 3. #2: device_settings (21 entries) 
+--------------------utc_offset [uint32]: 0
+unknown [uint32]: 0
+unknown [uint8]: 0
+unknown [enum]: 0
+unknown [enum]: 0
+unknown [sint8]: 0
+unknown [enum]: 3
+unknown [enum]: 3
+unknown [enum]: 2
+unknown [uint8]: 15
+unknown [uint8]: 100
+unknown [uint8]: 50
+unknown [enum]: 1
+unknown [enum]: 0
+unknown [enum]: 1
+unknown [enum]: 1
+unknown [enum]: 0
+unknown [enum]: 1
+unknown [enum]: 1
+unknown [enum]: 1
+unknown [enum]: 254
+
+-- 4. #3: user_profile (20 entries) 
+-----------------------friendly_name [string]: Forerunner 910
+weight [uint16]: 63.5 [kg]
+gender [gender]: male
+age [uint8]: 21 [years]
+height [uint8]: 1.75 [m]
+language [language]: english
+elev_setting [display_measure]: statute
+weight_setting [display_measure]: statute
+resting_heart_rate [uint8]: 55 [bpm]
+default_max_running_heart_rate [uint8]: 185 [bpm]
+default_max_biking_heart_rate [uint8]: 185 [bpm]
+default_max_heart_rate [uint8]: 185 [bpm]
+hr_setting [display_heart]: bpm
+speed_setting [display_measure]: statute
+dist_setting [display_measure]: statute
+power_setting [display_power]: percent_ftp
+activity_class [activity_class]: 0
+position_setting [display_position]: degree_minute_second
+temperature_setting [display_measure]: statute
+unknown [uint8]: None
+
+-- 5. #4: hrm_profile (5 entries) 
+-------------------------message_index [message_index]: 0
+hrm_ant_id [uint16z]: 50610
+enabled [bool]: True
+unknown [enum]: 0
+unknown [uint8z]: 1
+
+-- 6. #5: sdm_profile (7 entries) 
+-------------------------odometer [uint32]: 0.0 [m]
+message_index [message_index]: 0
+sdm_ant_id [uint16z]: None
+sdm_cal_factor [uint16]: 100.0 [%]
+enabled [bool]: False
+speed_source [bool]: False
+unknown [uint8z]: None
+
+-- 7. #6: bike_profile (24 entries) 
+-----------------------name [string]: Bike 1
+odometer [uint32]: 0.0 [m]
+message_index [message_index]: 0
+bike_spd_ant_id [uint16z]: None
+bike_cad_ant_id [uint16z]: None
+bike_spdcad_ant_id [uint16z]: None
+bike_power_ant_id [uint16z]: None
+custom_wheelsize [uint16]: 2.096 [m]
+auto_wheelsize [uint16]: 0.0 [m]
+bike_weight [uint16]: 9.5 [kg]
+power_cal_factor [uint16]: 50.0 [%]
+auto_wheel_cal [bool]: True
+auto_power_zero [bool]: True
+id [uint8]: 0
+spd_enabled [bool]: False
+cad_enabled [bool]: False
+spdcad_enabled [bool]: False
+power_enabled [bool]: False
+unknown [uint8]: None
+unknown [enum]: 1
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+
+-- 8. #6: bike_profile (24 entries) 
+-----------------------name [string]: Bike 2
+odometer [uint32]: 0.0 [m]
+message_index [message_index]: 1
+bike_spd_ant_id [uint16z]: None
+bike_cad_ant_id [uint16z]: None
+bike_spdcad_ant_id [uint16z]: None
+bike_power_ant_id [uint16z]: None
+custom_wheelsize [uint16]: 2.096 [m]
+auto_wheelsize [uint16]: 0.0 [m]
+bike_weight [uint16]: 9.5 [kg]
+power_cal_factor [uint16]: 50.0 [%]
+auto_wheel_cal [bool]: True
+auto_power_zero [bool]: True
+id [uint8]: 0
+spd_enabled [bool]: False
+cad_enabled [bool]: False
+spdcad_enabled [bool]: False
+power_enabled [bool]: False
+unknown [uint8]: None
+unknown [enum]: 0
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+
+-- 9. #6: bike_profile (24 entries) 
+-----------------------name [string]: Bike 3
+odometer [uint32]: 0.0 [m]
+message_index [message_index]: 2
+bike_spd_ant_id [uint16z]: None
+bike_cad_ant_id [uint16z]: None
+bike_spdcad_ant_id [uint16z]: None
+bike_power_ant_id [uint16z]: None
+custom_wheelsize [uint16]: 2.096 [m]
+auto_wheelsize [uint16]: 0.0 [m]
+bike_weight [uint16]: 9.5 [kg]
+power_cal_factor [uint16]: 50.0 [%]
+auto_wheel_cal [bool]: True
+auto_power_zero [bool]: True
+id [uint8]: 0
+spd_enabled [bool]: False
+cad_enabled [bool]: False
+spdcad_enabled [bool]: False
+power_enabled [bool]: False
+unknown [uint8]: None
+unknown [enum]: 0
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+
+-- 10. #6: bike_profile (24 entries) 
+----------------------name [string]: Bike 4
+odometer [uint32]: 0.0 [m]
+message_index [message_index]: 3
+bike_spd_ant_id [uint16z]: None
+bike_cad_ant_id [uint16z]: None
+bike_spdcad_ant_id [uint16z]: None
+bike_power_ant_id [uint16z]: None
+custom_wheelsize [uint16]: 2.096 [m]
+auto_wheelsize [uint16]: 0.0 [m]
+bike_weight [uint16]: 9.5 [kg]
+power_cal_factor [uint16]: 50.0 [%]
+auto_wheel_cal [bool]: True
+auto_power_zero [bool]: True
+id [uint8]: 0
+spd_enabled [bool]: False
+cad_enabled [bool]: False
+spdcad_enabled [bool]: False
+power_enabled [bool]: False
+unknown [uint8]: None
+unknown [enum]: 0
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+
+-- 11. #6: bike_profile (24 entries) 
+----------------------name [string]: Bike 5
+odometer [uint32]: 0.0 [m]
+message_index [message_index]: 4
+bike_spd_ant_id [uint16z]: None
+bike_cad_ant_id [uint16z]: None
+bike_spdcad_ant_id [uint16z]: None
+bike_power_ant_id [uint16z]: None
+custom_wheelsize [uint16]: 2.096 [m]
+auto_wheelsize [uint16]: 0.0 [m]
+bike_weight [uint16]: 9.5 [kg]
+power_cal_factor [uint16]: 50.0 [%]
+auto_wheel_cal [bool]: True
+auto_power_zero [bool]: True
+id [uint8]: 0
+spd_enabled [bool]: False
+cad_enabled [bool]: False
+spdcad_enabled [bool]: False
+power_enabled [bool]: False
+unknown [uint8]: None
+unknown [enum]: 0
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+unknown [uint8z]: None
+

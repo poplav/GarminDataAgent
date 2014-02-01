@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "start_time,total_distance,avg_speed,total_elapsed_time" > garmin_data.csv
+FILES=~/.config/garmin-extractor/3863488130/activities/*
+for f in $FILES
+do
+  echo "Processing File = $f"
+  sudo python sample_program.py $f
+done

@@ -44,6 +44,7 @@ Note:  I ran this with my data so you should see a filled garmin_data.csv file a
 Screenshots:
 
 Still need to upload them, I will get to that soon.
+As of now see samples in Output folder.
 
 ==============================================================================
 

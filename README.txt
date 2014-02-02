@@ -1,4 +1,4 @@
-Project by poplav92 (Michael Poplavski)
+Project by poplav92
 Acknowledgments to Tigge & dtcooper
 Code from their repositories at:
 https://github.com/Tigge/Garmin-Forerunner-610-Extractor

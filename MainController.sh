@@ -14,13 +14,12 @@ do
   #echo "Processing File = $f"
   sudo python sample_program.py $f
 done
-#move back to main dir yeah I know...its a quick fix...
+#move back to main dir
 cd ..
 cd ..
 cd ..
 mv ./Software/python-fitparse-master/scripts/garmin_data.csv ./
 
-#remove the log file lolz.............
 rm *.log
 
 #run R script to produce viz!

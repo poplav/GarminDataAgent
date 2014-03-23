@@ -14,9 +14,12 @@ dev.off()
 jpeg('~/GarminDataAgent/Output/avgSpeedVsTotalDistance.jpg')
 m <- ggplot(table, aes(avg_speed, total_distance))
 m + stat_smooth(method=lm)  + geom_point() + labs(title = "avgSpeedVsTotalDistance.jpg")
-#ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg", scale=1, width=4, height=4)
-#ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg")
 dev.off()
+#ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg", scale=1, width=4, height=4)
+#fit <- lm(total_distance ~ avg_speed, data=table)
+#summary(fit)
+#ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg")
+#dev.off()
 
 #look at total_distance - f(avg_speed) over time
 #given historical speed is my current distance given my speed a strong run if it is should be > 0
@@ -37,5 +40,6 @@ monthly_miles$date <- paste("01-",as.character(monthly_miles$date),sep="")
 monthly_miles$date <- as.Date(as.character(monthly_miles$date),format="%d-%m-%Y")
 jpeg('~/GarminDataAgent/Output/MonthlyMiles.jpg')
 m <- ggplot(monthly_miles, aes(date, total_miles, group=1))
-m + stat_smooth(method=lm)  + geom_point() + labs(title = "MonthlyMiles.jpg")
+m + stat_smooth()  + geom_point() + labs(title = "MonthlyMiles.jpg")
 dev.off()
+

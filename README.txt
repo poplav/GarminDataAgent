@@ -50,4 +50,4 @@ As of now see samples in Output folder.
 
 Further Info:
 
-Email me questions, suggestions, or open source project collaboration ideas
+Email me questions, suggestions, or ideas

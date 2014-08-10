@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 
 #execfile('pandasSql.py')
 
+#Reads csv file into pandas, does preprocessing, and writes to mysql
+
 def readCsv(file):
 	#Read in csv
 	df = pd.read_csv(file)

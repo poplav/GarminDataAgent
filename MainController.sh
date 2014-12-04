@@ -15,12 +15,10 @@ do
   sudo python sample_program.py $f
 done
 #move back to main dir
-cd ..
-cd ..
-cd ..
+cd ../../..
 mv ./Software/python-fitparse-master/scripts/garmin_data.csv ./
 
-rm *.log
+sudo rm *.log
 
 #run R script to produce viz!
 R CMD BATCH ./Software/r_viz/garminDataViz.R

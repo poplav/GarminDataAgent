@@ -1,7 +1,6 @@
 
-R version 2.14.1 (2011-12-22)
-Copyright (C) 2011 The R Foundation for Statistical Computing
-ISBN 3-900051-07-0
+R version 3.1.1 (2014-07-10) -- "Sock it to Me"
+Copyright (C) 2014 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
 R is free software and comes with ABSOLUTELY NO WARRANTY.
@@ -24,7 +23,9 @@ Type 'q()' to quit R.
 > library(plyr)
 > table <- read.table("~/GarminDataAgent/garmin_data.csv", header=T, sep=",")
 > table$start_time <- as.Date(as.character(table$start_time),format="%Y-%m-%d")
-> table <- subset(table, total_distance > 0.5)
+> table <- subset(table, total_distance > 2)
+> table <- subset(table, total_distance < 30)
+> table <- subset(table, avg_speed < 10)
 > jpeg('~/GarminDataAgent/Output/startTimeVsDistance.jpg')
 > m <- ggplot(table, aes(start_time, total_distance))
 > m + stat_smooth()  + geom_point() + labs(title = "startTimeVsDistance.jpg")
@@ -42,8 +43,44 @@ null device
 > jpeg('~/GarminDataAgent/Output/avgSpeedVsTotalDistance.jpg')
 > m <- ggplot(table, aes(avg_speed, total_distance))
 > m + stat_smooth(method=lm)  + geom_point() + labs(title = "avgSpeedVsTotalDistance.jpg")
-> ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg", scale=1, width=4, height=4)
-Error in grid.newpage() : 
-  could not open file '/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg'
-Calls: ggsave -> print -> print.ggplot -> grid.newpage
-Execution halted
+> dev.off()
+null device 
+          1 
+> #ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg", scale=1, width=4, height=4)
+> #fit <- lm(total_distance ~ avg_speed, data=table)
+> #summary(fit)
+> #ggsave(file="/home/mike/Desktop/python-fitparse-master/scripts/g3.jpg")
+> #dev.off()
+> 
+> #look at total_distance - f(avg_speed) over time
+> #given historical speed is my current distance given my speed a strong run if it is should be > 0
+> fit <- lm(total_distance ~ avg_speed + 0, data=table)
+> table$f_avg_speed <- predict(fit, table)
+> table$total_distance_minus_f_speed <- table$total_dist-table$f_avg_speed
+> jpeg('~/GarminDataAgent/Output/startTimeVsTotalDistanceMinusFAvgSpeed.jpg')
+> m <- ggplot(table, aes(start_time, total_distance_minus_f_speed))
+> m + stat_smooth()  + geom_point() + labs(title = "startTimeVsTotalDistanceMinusFAvgSpeed.jpg")
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+> dev.off()
+null device 
+          1 
+> 
+> #look at miles grouped by month
+> monthly_miles <- rowsum(table$total_distance, format(table$start_time, '%m-%Y')) 
+> monthly_miles <- as.data.frame(as.table(monthly_miles))
+> monthly_miles <- subset(monthly_miles, select = -c(Var2))
+> monthly_miles <- rename(monthly_miles, c("Var1"="date", "Freq"="total_miles"))
+> monthly_miles$date <- paste("01-",as.character(monthly_miles$date),sep="")
+> monthly_miles$date <- as.Date(as.character(monthly_miles$date),format="%d-%m-%Y")
+> jpeg('~/GarminDataAgent/Output/MonthlyMiles.jpg')
+> m <- ggplot(monthly_miles, aes(date, total_miles, group=1))
+> m + stat_smooth()  + geom_point() + labs(title = "MonthlyMiles.jpg")
+geom_smooth: method="auto" and size of largest group is <1000, so using loess. Use 'method = x' to change the smoothing method.
+> dev.off()
+null device 
+          1 
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  1.264   0.022   1.271 

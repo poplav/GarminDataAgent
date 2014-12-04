@@ -31,6 +31,7 @@ if not filenames:
 
 def print_record(rec, ):
     for field in rec.fields:
+        print "%s = %s" % (field.name, field.data)
 	if "start_time" in field.name:
 	    global startTime
             startTime = field.data

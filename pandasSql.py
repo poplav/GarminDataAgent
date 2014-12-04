@@ -23,7 +23,14 @@ def readCsv(file):
 	df = df.sort(['start_time'])
 	return df
 
+def sumMilesLookBack(df, lookBack):
+	startDate = datetime.datetime.now() + datetime.timedelta(-lookBack)
+	tempDf = df[(df['start_time'] > startDate)]
+	print tempDf['total_distance'].sum()
+	return
+
 df = readCsv('/home/mike/GarminDataAgent/garmin_data.csv')
+sumMilesLookBack(df, 120)
 conection = MySQLdb.connect(host="localhost",user="root", passwd="",db="garmin")
 df.to_sql(con=conection, name='garminData', if_exists='replace', flavor='mysql')
 df.plot(x='start_time', y='total_distance', title='Running Distances', style='s')
